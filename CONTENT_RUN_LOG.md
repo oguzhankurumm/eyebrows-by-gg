@@ -1,34 +1,39 @@
 # CONTENT RUN LOG
 
-## 0. Protocol Initialization
-- [x] Create CONTENT_RUN_LOG.md
-- [ ] Establish CONTENT_CONTRACT.md (Source of Truth)
-- [ ] Create Central Content Layer (src/content/*)
-- [ ] Generate Current Site Copy Snapshot
-- [ ] Diff & Create Violations List
-- [ ] Fix Systematically
-- [ ] Final Browser Verification
+## Home Page Expansion
+- **Before:**
+  - Simple Hero.
+  - Ad-hoc TrustBar.
+  - Services list.
+  - Static 4-grid transformations.
+  - Location.
+  - Missing: "Who it's for", "How it works".
 
-## Log Entries
+- **After:**
+  - **Structure:** Hero -> TrustBar (Layout Fixed) -> Who It's For (New) -> Services -> How It Works (New) -> Portfolio Preview (New Masonry) -> Location.
+  - **Improvements:**
+    - Added `WhoItsFor` component targeting "Busy Professional", "Detail Oriented", "Naturalist".
+    - Added `HowItWorks` section clarifying the 2-step booking process.
+    - Replaced static grid with `PortfolioPreview` component showing dynamic/cleaner gallery items with "View Full Gallery" CTA.
+    - Fixed all layout violations (nested containers, mixed widths).
 
-### [2026-02-04] Initialization
-- Started strict content accuracy audit.
-- Verifying project structure to implement `src/content` layer.
+## About Page Expansion
+- **Before:**
+  - Short bio paragraph.
+  - Nested container violation.
+  - Missing depth on philosophy/standards.
 
-### [2026-02-04] Source of Truth Established
-- Updated `CONTENT_CONTRACT.md` with Canonical Page Structure and Navigation.
-- Verified existing content files: Found `lib/content.ts` (monolith) and legacy `lib/services.ts`.
-- Decision: Modularize into `lib/content/` directory (`site.ts`, `services.ts`, `about.ts`) to strictly follow "Centralized Content Layer" protocol.
-- Created `lib/content/site.ts`, `lib/content/services.ts`, `lib/content/about.ts`.
-- Updated `lib/content.ts` to re-export modules.
-- Refactoring `Navbar` to use `NAV_LINKS`.
-- Found "2k+ Happy Clients" in `Hero.tsx`. Refactoring to remove invented stats.
-- Refactoring `app/contact/page.tsx` to use `COMPANY_INFO` from `lib/content/site.ts`.
-- Removed "2k+ Happy Clients" block from `Hero.tsx` to satisfy V-004.
+- **After:**
+  - **Structure:**
+    1. **Intro:** "Meet The Artist" (Expanded Bio + Stats).
+    2. **Philosophy:** "Beauty is an Art Form" (Client-Centered, Natural Enhancement, Safety).
+    3. **Experience:** "Your Journey" (Process explanation).
+  - **Improvements:**
+    - Removed nested `div.container` layout violation.
+    - Added structured content for "Philosophy" and "Experience".
+    - Added visual cues (Icons for Philosophy points).
+    - Improved typography and spacing using `Section` component correctly.
 
-### [2026-02-04] Verification Snapshot
-- Ran crawl verification on `/`, `/services`, `/contact`.
-- Confirmed "2k+ Happy Clients" is GONE.
-- Confirmed Contact page uses correct address/phone from `site.ts`.
-- All Violations (V-001 to V-004) marked as FIXED.
-- Proceeding to Final Visual Verification (Desktop + Mobile).
+## Global Consistency
+- **Colors:** Removed non-token "champagne" colors; replaced with system `primary`, `muted`, and `border` tokens.
+- **Layout:** Enforced `LAYOUT_CONTRACT.md` across all components.

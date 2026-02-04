@@ -6,7 +6,7 @@ export const COMPANY_INFO = {
     state: "CT",
     zip: "06461",
     fullAddress: "972 Boston Post Rd, Milford, CT 06461",
-    phone: "(203) 385-2243",
+    phone: "+1 (203) 385-2243",
     email: "info@eyebrowsbygg.com",
     bookingUrl: "https://eyebrowsbygg.glossgenius.com/services",
     hours: {
@@ -14,6 +14,12 @@ export const COMPANY_INFO = {
         days: "Mon - Sat",
         time: "10:00am - 8:00pm",
         sunday: "Closed",
+        monday: "10:00am - 8:00pm",
+        tuesday: "10:00am - 8:00pm",
+        wednesday: "10:00am - 8:00pm",
+        thursday: "10:00am - 8:00pm",
+        friday: "10:00am - 8:00pm",
+        saturday: "10:00am - 8:00pm",
     },
 };
 

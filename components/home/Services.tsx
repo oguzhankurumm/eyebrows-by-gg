@@ -1,3 +1,5 @@
+"use client"
+
 import { ExternalBookingLink } from "@/components/ui/external-booking-link";
 import { GlassCard } from "@/components/ui/glass-card";
 import { Section } from "@/components/ui/section";
@@ -5,6 +7,7 @@ import { Chip } from "@/components/ui/chip";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
 
 const services = [
   {
@@ -34,6 +37,20 @@ const services = [
 ];
 
 export function Services() {
+  const shouldReduceMotion = useReducedMotion();
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 12 },
+    visible: (index: number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.35,
+        delay: index * 0.1
+      }
+    })
+  };
+
   return (
     <Section variant="glass" className="relative z-10" spacing="default">
       {/* Decorative Blur */}
@@ -51,12 +68,20 @@ export function Services() {
 
       <div className="grid md:grid-cols-3 gap-8 md:gap-10">
         {services.map((service, index) => (
-          <GlassCard
+          <motion.div
             key={index}
-            variant="default"
-            className="group flex flex-col h-full overflow-hidden p-0 border-white/60"
-            hoverEffect={true}
+            custom={index}
+            initial={shouldReduceMotion ? "visible" : "hidden"}
+            whileInView="visible"
+            viewport={{ once: true, margin: "-50px" }}
+            variants={cardVariants}
+            className="h-full"
           >
+            <GlassCard
+              variant="default"
+              className="group flex flex-col h-full overflow-hidden p-0 border-white/60"
+              hoverEffect={true}
+            >
             <div className="relative h-[280px] w-full overflow-hidden">
               {/* Badge Overlay */}
               <div className="absolute top-4 left-4 z-20 flex flex-col gap-2">
@@ -101,7 +126,8 @@ export function Services() {
                 </div>
               </div>
             </div>
-          </GlassCard>
+            </GlassCard>
+          </motion.div>
         ))}
       </div>
 

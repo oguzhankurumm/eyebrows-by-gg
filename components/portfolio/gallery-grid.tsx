@@ -40,7 +40,7 @@ export function GalleryGrid() {
   const selectedItem = selectedItemIndex !== null ? filteredItems[selectedItemIndex] : null;
 
   return (
-    <section className="container py-8 md:py-12 space-y-8">
+    <div className="space-y-8">
       {/* Category Filter */}
       <div className="flex flex-wrap gap-2 justify-center">
         {categories.map((category) => (
@@ -96,6 +96,6 @@ export function GalleryGrid() {
         hasPrev={selectedItemIndex !== null && selectedItemIndex > 0}
         hasNext={selectedItemIndex !== null && selectedItemIndex < filteredItems.length - 1}
       />
-    </section>
+    </div>
   );
 }

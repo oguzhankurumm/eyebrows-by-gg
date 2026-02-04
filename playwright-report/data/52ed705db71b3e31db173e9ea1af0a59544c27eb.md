@@ -1,0 +1,203 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e17]:
+      - heading "Let's Connect" [level=1] [ref=e18]
+      - paragraph [ref=e19]: Visit our private studio in Milford, CT for a personalized consultation.
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - heading "Contact Information" [level=2] [ref=e25]
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - generic [ref=e32]:
+                - heading "Visit Us" [level=3] [ref=e33]
+                - paragraph [ref=e34]:
+                  - text: 972 Boston Post Rd
+                  - text: Milford, CT 06461
+            - generic [ref=e35]:
+              - img [ref=e37]
+              - generic [ref=e39]:
+                - heading "Call Us" [level=3] [ref=e40]
+                - paragraph [ref=e41]:
+                  - link "+1 (203) 385-2243" [ref=e42] [cursor=pointer]:
+                    - /url: tel:12033852243
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - generic [ref=e48]:
+                - heading "Email Us" [level=3] [ref=e49]
+                - paragraph [ref=e50]:
+                  - link "info@eyebrowsbygg.com" [ref=e51] [cursor=pointer]:
+                    - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e52]:
+          - heading "Opening Hours" [level=2] [ref=e53]
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e59]:
+              - generic [ref=e60]:
+                - generic [ref=e61]: Mon - Sat
+                - generic [ref=e62]: 10:00am - 8:00pm
+              - generic [ref=e63]:
+                - generic [ref=e64]: Sunday
+                - generic [ref=e65]: Closed
+        - generic [ref=e66]:
+          - heading "Send a Message" [level=2] [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - heading "Send a Message" [level=3] [ref=e70]
+              - paragraph [ref=e71]: Have a question about a service? Drop us a note.
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - text: Name
+                  - textbox "Name" [ref=e75]:
+                    - /placeholder: Your name
+                - generic [ref=e76]:
+                  - text: Email
+                  - textbox "Email" [ref=e77]:
+                    - /placeholder: you@example.com
+              - generic [ref=e78]:
+                - text: Phone (Optional)
+                - textbox "Phone (Optional)" [ref=e79]:
+                  - /placeholder: (555) 000-0000
+              - generic [ref=e80]:
+                - text: Message
+                - textbox "Message" [ref=e81]:
+                  - /placeholder: How can we help you?
+              - button "Send Message" [ref=e82]
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: Ready to book immediately?
+            - button "Book Online Now" [ref=e85]
+      - iframe [ref=e87]:
+        - generic [ref=f1e3]:
+          - generic:
+            - button "Keyboard shortcuts"
+          - region "Map" [ref=f1e4]
+          - generic [ref=f1e5]:
+            - iframe [ref=f1e72]:
+              
+            - generic [ref=f1e76]:
+              - generic [ref=f1e77]:
+                - generic [ref=f1e78]: 972 Boston Post Rd
+                - generic [ref=f1e79]: 972 Boston Post Rd, Milford, CT 06460
+              - link "Get directions to this location on Google Maps." [ref=f1e82] [cursor=pointer]:
+                - /url: https://maps.google.com/maps/dir//972+Boston+Post+Rd+Milford,+CT+06460/@41.2320291,-73.0478252,18z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89e874f3e02309b3:0x959cf2d3ba787d0e
+                - generic [ref=f1e84]: Directions
+              - link "View larger map" [ref=f1e88] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=41.232029,-73.047825&z=18&t=m&hl=en&gl=US&mapclient=embed&q=972%20Boston%20Post%20Rd%20Milford%2C%20CT%2006460
+            - button "Map camera controls" [ref=f1e90] [cursor=pointer]
+            - button "Show satellite imagery" [ref=f1e93] [cursor=pointer]:
+              - generic [ref=f1e97]:
+                - region [ref=f1e98]
+                - iframe [ref=f1e104]:
+                  
+            - img "Google" [ref=f1e106]
+            - generic [ref=f1e107]:
+              - button "Keyboard shortcuts" [ref=f1e113] [cursor=pointer]
+              - generic [ref=f1e118]: Map data ©2026 Google
+              - link "Terms (opens in new tab)" [ref=f1e123] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en_US/help/terms_maps.html
+                - text: Terms
+              - link "Report a map error" [ref=f1e128] [cursor=pointer]:
+                - /url: https://www.google.com/maps/@41.2320291,-73.0478252,18z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+  - contentinfo [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - link "Eyebrows by GG" [ref=e92] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e95]:
+            - link "Instagram" [ref=e96] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e97]
+            - link "Facebook" [ref=e100] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e101]
+        - generic [ref=e103]:
+          - heading "Explore" [level=4] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "Services" [ref=e107] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e109]:
+              - link "Portfolio" [ref=e110] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e112]:
+              - link "About" [ref=e113] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e115]:
+              - link "Blog" [ref=e116] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e118]:
+              - link "Contact" [ref=e119] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e121]:
+          - heading "Contact" [level=4] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - img [ref=e125]
+              - generic [ref=e128]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e129]:
+              - img [ref=e130]
+              - link "+1 (203) 385-2243" [ref=e132] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e133]:
+              - img [ref=e134]
+              - link "info@eyebrowsbygg.com" [ref=e137] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e138]:
+          - heading "Studio Hours" [level=4] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - generic [ref=e142]: Mon - Sat
+              - generic [ref=e143]: 10:00am - 8:00pm
+            - listitem [ref=e144]:
+              - generic [ref=e145]: Sunday
+              - generic [ref=e146]: Closed
+          - link "Book Appointment" [ref=e148] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e149]:
+        - paragraph [ref=e150]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e151]:
+          - link "Privacy Policy" [ref=e152] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e153] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e154] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e155]
+  - button "Open Next.js Dev Tools" [ref=e162] [cursor=pointer]:
+    - img [ref=e163]
+  - alert [ref=e166]
+```

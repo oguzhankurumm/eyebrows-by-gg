@@ -1,0 +1,152 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: Gallery
+        - heading "Real Results" [level=1] [ref=e20]
+        - paragraph [ref=e21]: Browse our gallery of brow transformations. From natural enhancements to bold definitions, see how we tailor every look to you.
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - button "All" [ref=e26]
+          - button "Ombre Powder" [ref=e27]
+          - button "Nano Brows" [ref=e28]
+          - button "Combo Brows" [ref=e29]
+          - button "Touch Up" [ref=e30]
+          - button "Correction" [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33] [cursor=pointer]:
+            - img "Ombre Powder Brows Before and After" [ref=e34]
+            - paragraph [ref=e37]: Ombre Powder
+          - generic [ref=e38] [cursor=pointer]:
+            - img "Nano Brows healed results" [ref=e39]
+            - paragraph [ref=e42]: Nano Brows
+          - generic [ref=e43] [cursor=pointer]:
+            - img "Combo Brows transformation" [ref=e44]
+            - paragraph [ref=e47]: Combo Brows
+          - generic [ref=e48] [cursor=pointer]:
+            - img "Soft Ombre Powder Brows" [ref=e49]
+            - paragraph [ref=e52]: Ombre Powder
+          - generic [ref=e53] [cursor=pointer]:
+            - img "Natural Nano Brows" [ref=e54]
+            - paragraph [ref=e57]: Nano Brows
+          - generic [ref=e58] [cursor=pointer]:
+            - img "Defined Combo Brows" [ref=e59]
+            - paragraph [ref=e62]: Combo Brows
+          - generic [ref=e63] [cursor=pointer]:
+            - img "Annual Touch Up Results" [ref=e64]
+            - paragraph [ref=e67]: Touch Up
+          - generic [ref=e68] [cursor=pointer]:
+            - img "Correction work" [ref=e69]
+            - paragraph [ref=e72]: Correction
+      - generic [ref=e74]:
+        - heading "Ready to Transform Your Brows?" [level=2] [ref=e75]
+        - paragraph [ref=e76]: You’ve seen the results. Now let’s create yours. Book your session today and wake up flawless.
+        - button "Book Your Look" [ref=e77]
+      - generic [ref=e80]:
+        - img [ref=e82]
+        - heading "Your Beauty, Your Way" [level=2] [ref=e85]
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Results vary by skin type, lifestyle, and aftercare, but our commitment to quality never wavers. Every set of brows is customized to complement your unique facial structure and preferences.
+          - paragraph [ref=e88]: We take the time to map, measure, and design the perfect shape for you before any procedure begins.
+        - button "Book Your Transformation" [ref=e90]
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "Eyebrows by GG" [ref=e95] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e98]:
+            - link "Instagram" [ref=e99] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e100]
+            - link "Facebook" [ref=e103] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e104]
+        - generic [ref=e106]:
+          - heading "Explore" [level=4] [ref=e107]
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Services" [ref=e110] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e112]:
+              - link "Portfolio" [ref=e113] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e115]:
+              - link "About" [ref=e116] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e118]:
+              - link "Blog" [ref=e119] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e121]:
+              - link "Contact" [ref=e122] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e124]:
+          - heading "Contact" [level=4] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - img [ref=e128]
+              - generic [ref=e131]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e132]:
+              - img [ref=e133]
+              - link "+1 (203) 385-2243" [ref=e135] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e136]:
+              - img [ref=e137]
+              - link "info@eyebrowsbygg.com" [ref=e140] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e141]:
+          - heading "Studio Hours" [level=4] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - generic [ref=e145]: Mon - Sat
+              - generic [ref=e146]: 10:00am - 8:00pm
+            - listitem [ref=e147]:
+              - generic [ref=e148]: Sunday
+              - generic [ref=e149]: Closed
+          - link "Book Appointment" [ref=e151] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e152]:
+        - paragraph [ref=e153]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e154]:
+          - link "Privacy Policy" [ref=e155] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e156] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e157] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e158]
+  - button "Open Next.js Dev Tools" [ref=e165] [cursor=pointer]:
+    - img [ref=e166]
+  - alert [ref=e169]
+```

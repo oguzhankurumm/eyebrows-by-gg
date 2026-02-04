@@ -4,6 +4,7 @@ import { services } from "@/lib/services";
 import { MarkdownRenderer } from "@/components/blog/MarkdownRenderer";
 import { BlogCTA } from "@/components/blog/BlogCTA";
 import { BlogCard } from "@/components/blog/BlogCard";
+import { Section } from "@/components/ui/section";
 import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft, Calendar } from "lucide-react";
@@ -105,7 +106,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       
-      <div className="container max-w-3xl">
+      <Section width="narrow">
         <Link 
           href="/blog" 
           className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors mb-8 group"
@@ -174,7 +175,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </div>
           </div>
         )}
-      </div>
+      </Section>
     </article>
   );
 }

@@ -14,7 +14,7 @@ export default function PortfolioPage() {
   return (
     <main className="flex-1">
       <Section variant="default" className="pt-32 pb-12 md:pb-20">
-        <div className="container text-center max-w-3xl space-y-6">
+        <div className="text-center max-w-3xl mx-auto space-y-6">
           <Chip variant="default" className="uppercase tracking-widest text-xs">Gallery</Chip>
           <h1 className="h1">Real Results</h1>
           <p className="lead">

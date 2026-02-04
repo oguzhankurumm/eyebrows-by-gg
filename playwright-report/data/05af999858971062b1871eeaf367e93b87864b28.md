@@ -1,0 +1,231 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e17]:
+      - heading "Journal" [level=1] [ref=e18]
+      - paragraph [ref=e19]: Expert insights on permanent makeup, skin care, and beauty trends.
+    - generic [ref=e22]:
+      - 'link "Ombre Powder Brows vs. Microblading: Which One is Right for You? tips comparison Ombre Powder Brows vs. Microblading: Which One is Right for You? Confused about the difference between Ombre Powder Brows and Microblading? We break down the pros, cons, and results of each to help you decide. March 20, 2024 Read Article" [ref=e23] [cursor=pointer]':
+        - /url: /blog/ombre-vs-microblading
+        - 'img "Ombre Powder Brows vs. Microblading: Which One is Right for You?" [ref=e25]'
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: tips
+            - generic [ref=e30]: comparison
+          - 'heading "Ombre Powder Brows vs. Microblading: Which One is Right for You?" [level=3] [ref=e31]'
+          - paragraph [ref=e32]: Confused about the difference between Ombre Powder Brows and Microblading? We break down the pros, cons, and results of each to help you decide.
+          - generic [ref=e33]:
+            - time [ref=e34]: March 20, 2024
+            - generic [ref=e35]:
+              - text: Read Article
+              - img [ref=e36]
+      - link "10 Things to Know Before Trying Microblading 10 Things to Know Before Trying Microblading Ever wondered what you should know before diving into the world of microblading? You're not alone. This guide unveils the top 10 insider secrets to get you prepped and confident. Buckle up, beauty enthusiast, for a transformative eyebrow journey you won't want to miss! 1. Understanding the Basics of Microblading Microblading is an intricate eyebrow October 4, 2023 Read Article" [ref=e39] [cursor=pointer]:
+        - /url: /blog/what-to-know-before-microblading
+        - img "10 Things to Know Before Trying Microblading" [ref=e41]
+        - generic [ref=e43]:
+          - heading "10 Things to Know Before Trying Microblading" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Ever wondered what you should know before diving into the world of microblading? You're not alone. This guide unveils the top 10 insider secrets to get you prepped and confident. Buckle up, beauty enthusiast, for a transformative eyebrow journey you won't want to miss! 1. Understanding the Basics of Microblading Microblading is an intricate eyebrow
+          - generic [ref=e46]:
+            - time [ref=e47]: October 4, 2023
+            - generic [ref=e48]:
+              - text: Read Article
+              - img [ref=e49]
+      - 'link "Powder Brows 101: Everything You Need To Know Powder Brows 101: Everything You Need To Know Powder brows are a semi-permanent makeup technique mimicking a soft, powdered makeup look. Dive into our guide to read more. September 20, 2023 Read Article" [ref=e52] [cursor=pointer]':
+        - /url: /blog/what-is-powder-brows
+        - 'img "Powder Brows 101: Everything You Need To Know" [ref=e54]'
+        - generic [ref=e56]:
+          - 'heading "Powder Brows 101: Everything You Need To Know" [level=3] [ref=e57]'
+          - paragraph [ref=e58]: Powder brows are a semi-permanent makeup technique mimicking a soft, powdered makeup look. Dive into our guide to read more.
+          - generic [ref=e59]:
+            - time [ref=e60]: September 20, 2023
+            - generic [ref=e61]:
+              - text: Read Article
+              - img [ref=e62]
+      - link "Nano Brows vs. Microblading for Perfect Eyebrows Nano Brows vs. Microblading for Perfect Eyebrows It's essential to understand the differences in nano brows vs microblading to ensure you pick the right technique for your desired eyebrow outcome. Click to continue reading. September 14, 2023 Read Article" [ref=e65] [cursor=pointer]:
+        - /url: /blog/nano-brows-vs-microblading-for-perfect-eyebrows
+        - img "Nano Brows vs. Microblading for Perfect Eyebrows" [ref=e67]
+        - generic [ref=e69]:
+          - heading "Nano Brows vs. Microblading for Perfect Eyebrows" [level=3] [ref=e70]
+          - paragraph [ref=e71]: It's essential to understand the differences in nano brows vs microblading to ensure you pick the right technique for your desired eyebrow outcome. Click to continue reading.
+          - generic [ref=e72]:
+            - time [ref=e73]: September 14, 2023
+            - generic [ref=e74]:
+              - text: Read Article
+              - img [ref=e75]
+      - link "The Ultimate Guide to Microblading on Oily Skin The Ultimate Guide to Microblading on Oily Skin Microblading on oily skin can feel like taming a wild canvas, but with the right touch, it transforms into a masterpiece. As a professional makeup artist, I've delved deep into this intricate dance of skin and pigment. In this guide, I'll unveil the art and science behind achieving those impeccable brows on glossy terrains. Ready August 28, 2023 Read Article" [ref=e78] [cursor=pointer]:
+        - /url: /blog/ultimate-guide-microblading-on-oily-skin
+        - img "The Ultimate Guide to Microblading on Oily Skin" [ref=e80]
+        - generic [ref=e82]:
+          - heading "The Ultimate Guide to Microblading on Oily Skin" [level=3] [ref=e83]
+          - paragraph [ref=e84]: Microblading on oily skin can feel like taming a wild canvas, but with the right touch, it transforms into a masterpiece. As a professional makeup artist, I've delved deep into this intricate dance of skin and pigment. In this guide, I'll unveil the art and science behind achieving those impeccable brows on glossy terrains. Ready
+          - generic [ref=e85]:
+            - time [ref=e86]: August 28, 2023
+            - generic [ref=e87]:
+              - text: Read Article
+              - img [ref=e88]
+      - link "How to Keep Microblading From Fading & Prolong Results How to Keep Microblading From Fading & Prolong Results In the glamorous world of brow artistry, knowing how to keep microblading from fading is the secret sauce to eternal brow perfection. As a seasoned makeup artist, I've seen the highs and lows of brow trends. Dive into this guide, and let me unveil expert hacks that will keep those brows looking sharp, ensuring your August 27, 2023 Read Article" [ref=e91] [cursor=pointer]:
+        - /url: /blog/how-to-keep-microblading-from-fading
+        - img "How to Keep Microblading From Fading & Prolong Results" [ref=e93]
+        - generic [ref=e95]:
+          - heading "How to Keep Microblading From Fading & Prolong Results" [level=3] [ref=e96]
+          - paragraph [ref=e97]: In the glamorous world of brow artistry, knowing how to keep microblading from fading is the secret sauce to eternal brow perfection. As a seasoned makeup artist, I've seen the highs and lows of brow trends. Dive into this guide, and let me unveil expert hacks that will keep those brows looking sharp, ensuring your
+          - generic [ref=e98]:
+            - time [ref=e99]: August 27, 2023
+            - generic [ref=e100]:
+              - text: Read Article
+              - img [ref=e101]
+      - link "Does Microblading Cause Hair Loss? Does Microblading Cause Hair Loss? Does microblading cause hair loss? It's a question I've encountered countless times in my extensive career as a makeup artist. The whispers, the worries, the myths – they've all crossed my studio. As someone who's been in the beauty industry for decades, let me take you through the facts, separating the chaff from the grain. August 26, 2023 Read Article" [ref=e104] [cursor=pointer]:
+        - /url: /blog/does-microblading-cause-hair-loss
+        - img "Does Microblading Cause Hair Loss?" [ref=e106]
+        - generic [ref=e108]:
+          - heading "Does Microblading Cause Hair Loss?" [level=3] [ref=e109]
+          - paragraph [ref=e110]: Does microblading cause hair loss? It's a question I've encountered countless times in my extensive career as a makeup artist. The whispers, the worries, the myths – they've all crossed my studio. As someone who's been in the beauty industry for decades, let me take you through the facts, separating the chaff from the grain.
+          - generic [ref=e111]:
+            - time [ref=e112]: August 26, 2023
+            - generic [ref=e113]:
+              - text: Read Article
+              - img [ref=e114]
+      - link "Powder Brows vs. Microblading Powder Brows vs. Microblading Investing in your brows is worthwhile, but understanding the potential cost range for microblading vs. powder brows is crucial for decision-making. August 23, 2023 Read Article" [ref=e117] [cursor=pointer]:
+        - /url: /blog/powder-brows-vs-microblading
+        - img "Powder Brows vs. Microblading" [ref=e119]
+        - generic [ref=e121]:
+          - heading "Powder Brows vs. Microblading" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Investing in your brows is worthwhile, but understanding the potential cost range for microblading vs. powder brows is crucial for decision-making.
+          - generic [ref=e124]:
+            - time [ref=e125]: August 23, 2023
+            - generic [ref=e126]:
+              - text: Read Article
+              - img [ref=e127]
+      - 'link "Achieving Timeless Beauty: The Elegance of Powder Eyebrows at Eyebrows By GG Achieving Timeless Beauty: The Elegance of Powder Eyebrows at Eyebrows By GG In the realm of beauty and aesthetics, eyebrows hold the power to transform a person''s entire appearance. Over the years, various eyebrow enhancement techniques have emerged, catering to diverse preferences and needs. One such method that has gained immense popularity is Powder Eyebrows, a semi-permanent solution that promises natural-looking, well-defined, and long-lasting results. At Eyebrows July 15, 2023 Read Article" [ref=e130] [cursor=pointer]':
+        - /url: /blog/achieving-timeless-beauty-the-elegance-of-powder-eyebrows-at-eyebrow-by-gg
+        - 'img "Achieving Timeless Beauty: The Elegance of Powder Eyebrows at Eyebrows By GG" [ref=e132]'
+        - generic [ref=e134]:
+          - 'heading "Achieving Timeless Beauty: The Elegance of Powder Eyebrows at Eyebrows By GG" [level=3] [ref=e135]'
+          - paragraph [ref=e136]: In the realm of beauty and aesthetics, eyebrows hold the power to transform a person's entire appearance. Over the years, various eyebrow enhancement techniques have emerged, catering to diverse preferences and needs. One such method that has gained immense popularity is Powder Eyebrows, a semi-permanent solution that promises natural-looking, well-defined, and long-lasting results. At Eyebrows
+          - generic [ref=e137]:
+            - time [ref=e138]: July 15, 2023
+            - generic [ref=e139]:
+              - text: Read Article
+              - img [ref=e140]
+      - link "Discover the Beauty of Eyebrow Henna Tinting at EyeBrows By GG Discover the Beauty of Eyebrow Henna Tinting at EyeBrows By GG Welcome to EyeBrows By GG, a premier beauty center in Milford, CT, where we believe that every individual's beauty deserves to be accentuated and celebrated. One of our signature services that have been gaining popularity among our clients is Eyebrow Henna Tinting. This revolutionary technique not only enhances your brows' natural beauty but also ensures July 15, 2023 Read Article" [ref=e143] [cursor=pointer]:
+        - /url: /blog/discover-the-beauty-of-eyebrow-henna-tinting-at-eyebrow-by-gg
+        - img "Discover the Beauty of Eyebrow Henna Tinting at EyeBrows By GG" [ref=e145]
+        - generic [ref=e147]:
+          - heading "Discover the Beauty of Eyebrow Henna Tinting at EyeBrows By GG" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Welcome to EyeBrows By GG, a premier beauty center in Milford, CT, where we believe that every individual's beauty deserves to be accentuated and celebrated. One of our signature services that have been gaining popularity among our clients is Eyebrow Henna Tinting. This revolutionary technique not only enhances your brows' natural beauty but also ensures
+          - generic [ref=e150]:
+            - time [ref=e151]: July 15, 2023
+            - generic [ref=e152]:
+              - text: Read Article
+              - img [ref=e153]
+      - link "Enhance Your Beauty with Lip Blush at Eyebrows By GG Enhance Your Beauty with Lip Blush at Eyebrows By GG Welcome to Eye Brow By GG, where beauty and artistry converge to create enchanting transformations. If you're seeking a semi-permanent solution to enhance the allure of your lips, our Lip Blush treatment is precisely what you need. In this blog post, we'll explore the wonders of Lip Blush and how it can revitalize your look July 15, 2023 Read Article" [ref=e156] [cursor=pointer]:
+        - /url: /blog/enhance-your-beauty-with-lip-blush-at-eyesbrows-by-gg
+        - img "Enhance Your Beauty with Lip Blush at Eyebrows By GG" [ref=e158]
+        - generic [ref=e160]:
+          - heading "Enhance Your Beauty with Lip Blush at Eyebrows By GG" [level=3] [ref=e161]
+          - paragraph [ref=e162]: Welcome to Eye Brow By GG, where beauty and artistry converge to create enchanting transformations. If you're seeking a semi-permanent solution to enhance the allure of your lips, our Lip Blush treatment is precisely what you need. In this blog post, we'll explore the wonders of Lip Blush and how it can revitalize your look
+          - generic [ref=e163]:
+            - time [ref=e164]: July 15, 2023
+            - generic [ref=e165]:
+              - text: Read Article
+              - img [ref=e166]
+  - contentinfo [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - link "Eyebrows by GG" [ref=e173] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e174]
+          - paragraph [ref=e175]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e176]:
+            - link "Instagram" [ref=e177] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e178]
+            - link "Facebook" [ref=e181] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e182]
+        - generic [ref=e184]:
+          - heading "Explore" [level=4] [ref=e185]
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Services" [ref=e188] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e190]:
+              - link "Portfolio" [ref=e191] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e193]:
+              - link "About" [ref=e194] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e196]:
+              - link "Blog" [ref=e197] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e199]:
+              - link "Contact" [ref=e200] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e202]:
+          - heading "Contact" [level=4] [ref=e203]
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - img [ref=e206]
+              - generic [ref=e209]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e210]:
+              - img [ref=e211]
+              - link "+1 (203) 385-2243" [ref=e213] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e214]:
+              - img [ref=e215]
+              - link "info@eyebrowsbygg.com" [ref=e218] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e219]:
+          - heading "Studio Hours" [level=4] [ref=e220]
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - generic [ref=e223]: Mon - Sat
+              - generic [ref=e224]: 10:00am - 8:00pm
+            - listitem [ref=e225]:
+              - generic [ref=e226]: Sunday
+              - generic [ref=e227]: Closed
+          - link "Book Appointment" [ref=e229] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e230]:
+        - paragraph [ref=e231]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e232]:
+          - link "Privacy Policy" [ref=e233] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e234] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e235] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e236]
+  - button "Open Next.js Dev Tools" [ref=e243] [cursor=pointer]:
+    - img [ref=e244]
+  - alert [ref=e247]
+```

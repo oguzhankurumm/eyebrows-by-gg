@@ -1,0 +1,139 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Meet The Artist
+            - heading "20 Years Experience on Threading" [level=1] [ref=e22]
+            - heading "Certified PMU Artist" [level=2] [ref=e23]
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: Eyebrows By GG is your premier destination for exquisite beauty services in the heart of Milford, CT.
+            - paragraph [ref=e26]: Certified PMU and Makeup Artist GG brings over 20 years of experience in threading and expertise in powder eyebrows, nanoblading, and lip blush. She combines technical precision with an artist's eye to create looks that are as unique as you are.
+          - generic [ref=e27]:
+            - generic [ref=e28]: Certified PMU Artist
+            - generic [ref=e29]: Licensed & Insured
+            - generic [ref=e30]: 20+ Years Experience
+        - img "GG - Certified PMU Artist" [ref=e36]
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - heading "Our Philosophy" [level=2] [ref=e40]
+          - paragraph [ref=e41]: Beauty is an art form, and your face is our canvas.
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - img [ref=e45]
+            - heading "Client-Centered Care" [level=3] [ref=e47]
+            - paragraph [ref=e48]: We listen first. Every appointment begins with a thorough consultation to understand your goals, lifestyle, and preferences.
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - heading "Natural Enhancement" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Our goal is never to change who you are, but to highlight your best features with subtle, realistic techniques.
+          - generic [ref=e56]:
+            - img [ref=e58]
+            - heading "Safety & Hygiene" [level=3] [ref=e61]
+            - paragraph [ref=e62]: We adhere to strict hospital-grade sanitation standards. All needles are single-use, and our studio is fully licensed and insured.
+      - generic [ref=e64]:
+        - heading "Your Experience" [level=2] [ref=e65]
+        - paragraph [ref=e66]: From the moment you walk in, you are in expert hands. We guide you through every step—from mapping your perfect shape to the final reveal.
+        - button "Start Your Journey" [ref=e68]
+  - contentinfo [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - link "Eyebrows by GG" [ref=e73] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e76]:
+            - link "Instagram" [ref=e77] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e78]
+            - link "Facebook" [ref=e81] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e82]
+        - generic [ref=e84]:
+          - heading "Explore" [level=4] [ref=e85]
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Services" [ref=e88] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e90]:
+              - link "Portfolio" [ref=e91] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e93]:
+              - link "About" [ref=e94] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e96]:
+              - link "Blog" [ref=e97] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e99]:
+              - link "Contact" [ref=e100] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e102]:
+          - heading "Contact" [level=4] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - img [ref=e106]
+              - generic [ref=e109]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e110]:
+              - img [ref=e111]
+              - link "+1 (203) 385-2243" [ref=e113] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e114]:
+              - img [ref=e115]
+              - link "info@eyebrowsbygg.com" [ref=e118] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e119]:
+          - heading "Studio Hours" [level=4] [ref=e120]
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - generic [ref=e123]: Mon - Sat
+              - generic [ref=e124]: 10:00am - 8:00pm
+            - listitem [ref=e125]:
+              - generic [ref=e126]: Sunday
+              - generic [ref=e127]: Closed
+          - link "Book Appointment" [ref=e129] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e132]:
+          - link "Privacy Policy" [ref=e133] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e134] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e135] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e136]
+  - button "Open Next.js Dev Tools" [ref=e143] [cursor=pointer]:
+    - img [ref=e144]
+  - alert [ref=e147]
+```

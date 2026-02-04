@@ -1,13 +1,14 @@
 import { Metadata } from "next";
+import { COMPANY_INFO } from "@/lib/content/site";
 
 export const siteConfig = {
-  name: "Eyebrows by GG",
+  name: COMPANY_INFO.name,
   description: "Expert microblading and ombre powder brows studio enhancing your natural beauty with precision and care.",
   url: process.env.NEXT_PUBLIC_BASE_URL || "https://eyebrowsbygg.com",
   ogImage: "https://eyebrowsbygg.com/assets/images/hero-bg.jpg", // Using hero image as default OG
   links: {
-    instagram: "https://instagram.com", // Placeholder, should be updated if known
-    booking: "https://eyebrowsbygg.glossgenius.com",
+    instagram: "https://instagram.com/eyebrowsbygg",
+    booking: COMPANY_INFO.bookingUrl,
   }
 };
 

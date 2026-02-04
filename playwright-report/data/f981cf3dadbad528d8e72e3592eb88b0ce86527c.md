@@ -1,0 +1,184 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - button [ref=e5]:
+        - img [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e10]:
+      - heading "Let's Connect" [level=1] [ref=e11]
+      - paragraph [ref=e12]: Visit our private studio in Milford, CT for a personalized consultation.
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Contact Information" [level=2] [ref=e18]
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - img [ref=e22]
+              - generic [ref=e25]:
+                - heading "Visit Us" [level=3] [ref=e26]
+                - paragraph [ref=e27]:
+                  - text: 972 Boston Post Rd
+                  - text: Milford, CT 06461
+            - generic [ref=e28]:
+              - img [ref=e30]
+              - generic [ref=e32]:
+                - heading "Call Us" [level=3] [ref=e33]
+                - paragraph [ref=e34]:
+                  - link "+1 (203) 385-2243" [ref=e35] [cursor=pointer]:
+                    - /url: tel:12033852243
+            - generic [ref=e36]:
+              - img [ref=e38]
+              - generic [ref=e41]:
+                - heading "Email Us" [level=3] [ref=e42]
+                - paragraph [ref=e43]:
+                  - link "info@eyebrowsbygg.com" [ref=e44] [cursor=pointer]:
+                    - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e45]:
+          - heading "Opening Hours" [level=2] [ref=e46]
+          - generic [ref=e47]:
+            - img [ref=e49]
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e54]: Mon - Sat
+                - generic [ref=e55]: 10:00am - 8:00pm
+              - generic [ref=e56]:
+                - generic [ref=e57]: Sunday
+                - generic [ref=e58]: Closed
+        - generic [ref=e59]:
+          - heading "Send a Message" [level=2] [ref=e60]
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - heading "Send a Message" [level=3] [ref=e63]
+              - paragraph [ref=e64]: Have a question about a service? Drop us a note.
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - text: Name
+                  - textbox "Name" [ref=e68]:
+                    - /placeholder: Your name
+                - generic [ref=e69]:
+                  - text: Email
+                  - textbox "Email" [ref=e70]:
+                    - /placeholder: you@example.com
+              - generic [ref=e71]:
+                - text: Phone (Optional)
+                - textbox "Phone (Optional)" [ref=e72]:
+                  - /placeholder: (555) 000-0000
+              - generic [ref=e73]:
+                - text: Message
+                - textbox "Message" [ref=e74]:
+                  - /placeholder: How can we help you?
+              - button "Send Message" [ref=e75]
+          - generic [ref=e76]:
+            - paragraph [ref=e77]: Ready to book immediately?
+            - button "Book Online Now" [ref=e78]
+      - iframe [ref=e80]:
+        - generic [ref=f1e3]:
+          - generic:
+            - button "Keyboard shortcuts"
+          - region "Map" [ref=f1e4]
+          - generic [ref=f1e5]:
+            - iframe [ref=f1e21]:
+              
+            - generic [ref=f1e25]:
+              - generic [ref=f1e27]: 972 Boston Post Rd
+              - link "View larger map" [ref=f1e29] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=41.232029,-73.047825&z=16&t=m&hl=en&gl=US&mapclient=embed&q=972%20Boston%20Post%20Rd%20Milford%2C%20CT%2006460
+            - button "Map camera controls" [ref=f1e31] [cursor=pointer]
+            - button "Show satellite imagery" [ref=f1e34] [cursor=pointer]:
+              - generic [ref=f1e38]:
+                - region [ref=f1e39]
+                - iframe [ref=f1e45]:
+                  
+            - img "Google" [ref=f1e47]
+            - generic [ref=f1e48]:
+              - button "Keyboard shortcuts" [ref=f1e54] [cursor=pointer]
+              - generic [ref=f1e59]: Map data ©2026
+              - link "Terms (opens in new tab)" [ref=f1e64] [cursor=pointer]:
+                - /url: https://www.google.com/intl/en_US/help/terms_maps.html
+                - text: Terms
+  - contentinfo [ref=e81]:
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - link "Eyebrows by GG" [ref=e85] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e88]:
+            - link "Instagram" [ref=e89] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e90]
+            - link "Facebook" [ref=e93] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e94]
+        - generic [ref=e96]:
+          - heading "Explore" [level=4] [ref=e97]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Services" [ref=e100] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e102]:
+              - link "Portfolio" [ref=e103] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e105]:
+              - link "About" [ref=e106] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e108]:
+              - link "Blog" [ref=e109] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e111]:
+              - link "Contact" [ref=e112] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e114]:
+          - heading "Contact" [level=4] [ref=e115]
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - img [ref=e118]
+              - generic [ref=e121]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e122]:
+              - img [ref=e123]
+              - link "+1 (203) 385-2243" [ref=e125] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e126]:
+              - img [ref=e127]
+              - link "info@eyebrowsbygg.com" [ref=e130] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e131]:
+          - heading "Studio Hours" [level=4] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - generic [ref=e135]: Mon - Sat
+              - generic [ref=e136]: 10:00am - 8:00pm
+            - listitem [ref=e137]:
+              - generic [ref=e138]: Sunday
+              - generic [ref=e139]: Closed
+          - link "Book Appointment" [ref=e141] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e144]:
+          - link "Privacy Policy" [ref=e145] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e146] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e147] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e148]
+  - button "Open Next.js Dev Tools" [ref=e155] [cursor=pointer]:
+    - img [ref=e156]
+  - alert [ref=e159]
+```

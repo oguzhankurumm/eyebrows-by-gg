@@ -30,7 +30,7 @@ export function PortfolioMasonry({ items, columns = 3, className }: PortfolioMas
   const selectedItem = selectedIndex !== null ? items[selectedIndex] : null;
 
   return (
-    <section className={cn("container py-12", className)}>
+    <div className={cn("py-12", className)}>
       <div className={cn(
         "grid gap-6 md:gap-8",
         columns === 2 && "grid-cols-2",
@@ -69,7 +69,7 @@ export function PortfolioMasonry({ items, columns = 3, className }: PortfolioMas
         hasPrev={selectedIndex !== null && selectedIndex > 0}
         hasNext={selectedIndex !== null && selectedIndex < items.length - 1}
       />
-    </section>
+    </div>
   );
 }
 

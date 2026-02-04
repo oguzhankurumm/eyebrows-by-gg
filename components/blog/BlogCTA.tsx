@@ -22,7 +22,7 @@ export function BlogCTA({
 }: BlogCTAProps) {
   if (variant === "card") {
     return (
-      <div className={cn("my-12 p-8 rounded-2xl bg-champagne/30 border border-champagne text-center", className)}>
+      <div className={cn("my-12 p-8 rounded-2xl bg-muted/30 border border-border text-center", className)}>
         <div className="flex justify-center mb-4">
           <div className="bg-white p-3 rounded-full shadow-sm">
             <Sparkles className="size-6 text-primary" />

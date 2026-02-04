@@ -17,6 +17,7 @@ test('Home page loads and displays core sections', async ({ page }) => {
 
     // Check Contact Info in Footer
     await expect(page.getByText('info@eyebrowsbygg.com')).toBeVisible();
+    await expect(page.getByText('+1 (203) 385-2243')).toBeVisible();
 });
 
 test('Navigation works', async ({ page }) => {

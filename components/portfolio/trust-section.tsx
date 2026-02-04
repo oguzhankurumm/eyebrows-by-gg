@@ -1,10 +1,11 @@
 import { ExternalBookingLink } from "@/components/ui/external-booking-link";
 import { ShieldCheck } from "lucide-react";
+import { Section } from "@/components/ui/section";
 
 export function TrustSection() {
   return (
-    <section className="py-16 bg-muted/30">
-      <div className="container flex flex-col items-center text-center gap-6 max-w-2xl">
+    <Section width="narrow" className="bg-muted/30">
+      <div className="flex flex-col items-center text-center gap-6">
         <div className="flex items-center gap-2 text-primary">
             <ShieldCheck className="size-6" />
         </div>
@@ -32,6 +33,6 @@ export function TrustSection() {
              />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

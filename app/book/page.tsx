@@ -7,6 +7,8 @@ import { services } from '@/lib/services';
 import { trackRedirect } from '@/lib/analytics';
 import { buildExternalLink } from '@/lib/links';
 
+import { Section } from '@/components/ui/section';
+
 // Default booking URL if no specific service is selected
 const DEFAULT_BOOKING_URL = 'https://eyebrowsbygg.glossgenius.com/services';
 
@@ -82,10 +84,10 @@ function RedirectContent() {
 
 export default function BookPage() {
   return (
-    <div className="container max-w-screen-xl mx-auto py-20">
+    <Section className="py-20">
       <Suspense fallback={<div className="min-h-[60vh] flex items-center justify-center"><Loader2 className="h-8 w-8 animate-spin text-muted-foreground" /></div>}>
         <RedirectContent />
       </Suspense>
-    </div>
+    </Section>
   );
 }

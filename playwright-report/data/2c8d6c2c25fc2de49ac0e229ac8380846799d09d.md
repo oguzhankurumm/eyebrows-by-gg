@@ -1,0 +1,275 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: Milford's Premier Studio
+        - heading "Elevating Beauty, Effortlessly." [level=1] [ref=e20]
+        - paragraph [ref=e21]: Experience the art of hyper-realistic permanent makeup. Tailored to your unique bone structure for a look that is undeniably you.
+        - generic [ref=e22]:
+          - link "Book Appointment" [ref=e23] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+            - text: Book Appointment
+            - img [ref=e24]
+          - link "View Portfolio" [ref=e27] [cursor=pointer]:
+            - /url: /portfolio
+      - generic [ref=e29]:
+        - img "Hero background" [ref=e30]
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Natural Look
+          - paragraph [ref=e33]: Specializing in hyper-realistic results.
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - img [ref=e41]
+        - heading "Master Certified" [level=3] [ref=e44]
+        - paragraph [ref=e45]: Trained by global industry leaders.
+      - generic [ref=e46]:
+        - img [ref=e48]
+        - heading "Licensed & Insured" [level=3] [ref=e51]
+        - paragraph [ref=e52]: Strict hospital-grade sanitation.
+      - generic [ref=e53]:
+        - img [ref=e55]
+        - heading "Premium Experience" [level=3] [ref=e57]
+        - paragraph [ref=e58]: Dedicated to your comfort and safety.
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - heading "Is This For You?" [level=2] [ref=e62]
+        - paragraph [ref=e63]: Permanent makeup isn't just about saving time—it's about confidence tailored to your lifestyle.
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - img [ref=e67]
+          - heading "The Busy Professional" [level=3] [ref=e70]
+          - paragraph [ref=e71]: Wake up ready. Save 20 minutes every morning and maintain a polished look from gym to office to dinner without a touch-up.
+        - generic [ref=e72]:
+          - img [ref=e74]
+          - heading "The Detail Oriented" [level=3] [ref=e77]
+          - paragraph [ref=e78]: For those who obsess over symmetry. We map your bone structure with mathematical precision to create your perfect shape.
+        - generic [ref=e79]:
+          - img [ref=e81]
+          - heading "The Naturalist" [level=3] [ref=e84]
+          - paragraph [ref=e85]: You want enhancement, not a "tattooed" look. Our specialized techniques create soft, airy results that look like your own hair.
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]: Our Signature Services
+        - heading "Refined Artistry for Lasting Beauty" [level=2] [ref=e90]
+        - paragraph [ref=e91]: Tailored permanent makeup treatments designed to enhance your natural features without looking "done".
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: Best Seller
+              - generic [ref=e98]: All Skin Types
+            - img "Ombre Powder Brows" [ref=e99]
+          - generic [ref=e102]:
+            - heading "Ombre Powder Brows" [level=3] [ref=e103]
+            - paragraph [ref=e104]: Soft, misty shading that mimics the look of filled-in brows with makeup. perfect for all skin types.
+            - generic [ref=e105]:
+              - link "Consultation Required" [ref=e106] [cursor=pointer]:
+                - /url: /services/ombre-powder-brows
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Consultation Required
+                  - img [ref=e110]
+              - button "Book Now" [ref=e112]
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Natural Look
+              - generic [ref=e118]: Dry Skin
+            - img "Nano Brows" [ref=e119]
+          - generic [ref=e122]:
+            - heading "Nano Brows" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Ultra-realistic hair strokes created with a machine for a natural, fluffy look.
+            - generic [ref=e125]:
+              - link "Consultation Required" [ref=e126] [cursor=pointer]:
+                - /url: /services/nano-brows
+                - generic [ref=e127]:
+                  - generic [ref=e128]: Consultation Required
+                  - img [ref=e130]
+              - button "Book Now" [ref=e132]
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Color Correction
+              - generic [ref=e138]: Definition
+            - img "Lip Blush" [ref=e139]
+          - generic [ref=e142]:
+            - heading "Lip Blush" [level=3] [ref=e143]
+            - paragraph [ref=e144]: Enhance your natural lip shape and color with a soft wash of pigment.
+            - generic [ref=e145]:
+              - link "$450+" [ref=e146] [cursor=pointer]:
+                - /url: /services/lip-blush
+                - generic [ref=e147]:
+                  - generic [ref=e148]: $450+
+                  - img [ref=e150]
+              - button "Book Now" [ref=e152]
+      - link "View All Treatments" [ref=e154] [cursor=pointer]:
+        - /url: /services
+        - button "View All Treatments" [ref=e155]:
+          - text: View All Treatments
+          - img [ref=e156]
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - heading "How Booking Works" [level=2] [ref=e161]
+        - paragraph [ref=e162]: Simple, secure, and fast.
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - img [ref=e166]
+          - heading "1. Select Service" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Browse our menu on GlossGenius and choose the perfect brow transformation for you.
+        - generic [ref=e174]:
+          - img [ref=e176]
+          - heading "2. Secure Spot" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Book instantly and securely. A deposit may be required to hold your appointment.
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - heading "Real Transformations" [level=2] [ref=e184]
+        - paragraph [ref=e185]: See the difference precision makes. Every set of brows is unique.
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - img "Ombre Powder Brows Before and After" [ref=e188]
+          - generic [ref=e190]: Ombre Powder
+        - generic [ref=e191]:
+          - img "Nano Brows healed results" [ref=e192]
+          - generic [ref=e194]: Nano Brows
+        - generic [ref=e195]:
+          - img "Combo Brows transformation" [ref=e196]
+          - generic [ref=e198]: Combo Brows
+        - generic [ref=e199]:
+          - img "Soft Ombre Powder Brows" [ref=e200]
+          - generic [ref=e202]: Ombre Powder
+      - link "View Full Gallery" [ref=e204] [cursor=pointer]:
+        - /url: /portfolio
+        - text: View Full Gallery
+        - img [ref=e205]
+    - generic [ref=e210]:
+      - heading "Ready to book?" [level=2] [ref=e212]
+      - generic [ref=e213]:
+        - button "Book via GlossGenius" [ref=e214]
+        - paragraph [ref=e215]: You’ll complete booking securely via GlossGenius.
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - heading "Visit Us" [level=2] [ref=e222]
+          - paragraph [ref=e223]: Experience our private studio in Milford, CT. Designed for comfort, precision, and relaxation.
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - img [ref=e227]
+            - generic [ref=e230]:
+              - heading "Location" [level=3] [ref=e231]
+              - paragraph [ref=e232]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+              - link "Get Directions →" [ref=e233] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=972%20Boston%20Post%20Rd%2C%20Milford%2C%20CT%2006461
+          - generic [ref=e234]:
+            - img [ref=e236]
+            - generic [ref=e239]:
+              - heading "Studio Hours" [level=3] [ref=e240]
+              - list [ref=e241]:
+                - listitem [ref=e242]:
+                  - generic [ref=e243]: Mon - Sat
+                  - generic [ref=e244]: 10:00am - 8:00pm
+                - listitem [ref=e245]:
+                  - generic [ref=e246]: Sunday
+                  - generic [ref=e247]: Closed
+      - generic [ref=e249]:
+        - iframe [ref=e250]
+        - generic [ref=e251]: 972 Boston Post Rd, Milford, CT
+  - contentinfo [ref=e252]:
+    - generic [ref=e253]:
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - link "Eyebrows by GG" [ref=e256] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e257]
+          - paragraph [ref=e258]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e259]:
+            - link "Instagram" [ref=e260] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e261]
+            - link "Facebook" [ref=e264] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e265]
+        - generic [ref=e267]:
+          - heading "Explore" [level=4] [ref=e268]
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - link "Services" [ref=e271] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e273]:
+              - link "Portfolio" [ref=e274] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e276]:
+              - link "About" [ref=e277] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e279]:
+              - link "Blog" [ref=e280] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e282]:
+              - link "Contact" [ref=e283] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e285]:
+          - heading "Contact" [level=4] [ref=e286]
+          - list [ref=e287]:
+            - listitem [ref=e288]:
+              - img [ref=e289]
+              - generic [ref=e292]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e293]:
+              - img [ref=e294]
+              - link "+1 (203) 385-2243" [ref=e296] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e297]:
+              - img [ref=e298]
+              - link "info@eyebrowsbygg.com" [ref=e301] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e302]:
+          - heading "Studio Hours" [level=4] [ref=e303]
+          - list [ref=e304]:
+            - listitem [ref=e305]:
+              - generic [ref=e306]: Mon - Sat
+              - generic [ref=e307]: 10:00am - 8:00pm
+            - listitem [ref=e308]:
+              - generic [ref=e309]: Sunday
+              - generic [ref=e310]: Closed
+          - link "Book Appointment" [ref=e312] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e313]:
+        - paragraph [ref=e314]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e315]:
+          - link "Privacy Policy" [ref=e316] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e317] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e318] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e319]
+  - alert [ref=e321]
+```

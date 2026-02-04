@@ -33,7 +33,7 @@ export function StickyMobileCTA({ label, href, subtext, className }: StickyMobil
 
   return (
     <div className={cn("fixed bottom-0 left-0 right-0 p-4 bg-background/95 backdrop-blur-md border-t border-border z-50 md:hidden animate-in slide-in-from-bottom-10 fade-in duration-500", className)}>
-      <div className="relative max-w-sm mx-auto">
+      <div className="relative mx-auto w-full">
         <Button 
           variant="ghost" 
           size="icon" 

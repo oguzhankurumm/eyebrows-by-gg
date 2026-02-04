@@ -1,0 +1,170 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - button [ref=e5]:
+        - img [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: Brows
+      - heading "Ombre Powder Brows" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Soft, misty shading for a defined makeup look. Best for oily skin or cover-ups.
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "The Experience" [level=2] [ref=e19]
+          - paragraph [ref=e20]: Designed to enhance your unique facial architecture, our Ombre Powder Brows service offers a bespoke approach to permanent makeup. We prioritize skin health, longevity, and natural-looking results above all else.
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - generic [ref=e26]: Soft, misty shading
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - generic [ref=e31]: Defined makeup look
+            - generic [ref=e32]:
+              - img [ref=e34]
+              - generic [ref=e36]: Long-lasting results
+        - generic [ref=e37]:
+          - heading "What to Expect" [level=2] [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e42]: "1"
+              - generic [ref=e44]:
+                - heading "Consultation & Mapping" [level=3] [ref=e45]
+                - paragraph [ref=e46]: We begin by analyzing your bone structure and skin type to map the perfect shape. No ink touches your skin until you approve the pre-draw.
+            - generic [ref=e47]:
+              - generic [ref=e49]: "2"
+              - generic [ref=e51]:
+                - heading "The Artistry" [level=3] [ref=e52]
+                - paragraph [ref=e53]: Using premium pigments and precise techniques, we build color layer by layer for a natural, airy finish that heals beautifully.
+            - generic [ref=e54]:
+              - generic [ref=e56]: "3"
+              - generic [ref=e57]:
+                - heading "Heal & Perfect" [level=3] [ref=e58]
+                - paragraph [ref=e59]: Follow our simple aftercare routine. A touch-up session is recommended 6-8 weeks later to perfect the density and shape.
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - generic [ref=e66]:
+            - heading "Aftercare Essentials" [level=2] [ref=e67]
+            - paragraph [ref=e68]: Your results depend heavily on how you care for them. Avoid sweating, makeup on the brows, and direct sun for 10-14 days. We provide a full aftercare kit and guide at your appointment.
+            - generic [ref=e69]:
+              - generic [ref=e70]: No Water meant for 10 days
+              - generic [ref=e71]: Apply provided balm
+              - generic [ref=e72]: No picking/scratching
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - paragraph [ref=e76]: Service Details
+            - heading "Consult for Price" [level=3] [ref=e77]
+            - paragraph [ref=e78]:
+              - img [ref=e79]
+              - text: 3 Hours Session
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - img [ref=e84]
+              - generic [ref=e87]: Booking requires a non-refundable deposit to secure your slot.
+            - generic [ref=e88]:
+              - img [ref=e89]
+              - generic [ref=e92]: Fully licensed, insured, and health-department approved facility.
+          - button "Book Appointment" [ref=e93]
+          - paragraph [ref=e94]: Secure booking via GlossGenius
+        - generic [ref=e95]:
+          - heading "Ideal Candidate" [level=4] [ref=e96]
+          - paragraph [ref=e97]: Best for all skin types, including oily/large pores. Perfect if you want a wake-up-and-go makeup look.
+          - generic [ref=e98]:
+            - generic [ref=e99]: Best for Oily Skin
+            - generic [ref=e100]: Cover-ups
+            - generic [ref=e101]: Defined Look
+  - contentinfo [ref=e102]:
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - link "Eyebrows by GG" [ref=e106] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e109]:
+            - link "Instagram" [ref=e110] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e111]
+            - link "Facebook" [ref=e114] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e115]
+        - generic [ref=e117]:
+          - heading "Explore" [level=4] [ref=e118]
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - link "Services" [ref=e121] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e123]:
+              - link "Portfolio" [ref=e124] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e126]:
+              - link "About" [ref=e127] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e129]:
+              - link "Blog" [ref=e130] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e132]:
+              - link "Contact" [ref=e133] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e135]:
+          - heading "Contact" [level=4] [ref=e136]
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - img [ref=e139]
+              - generic [ref=e142]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e143]:
+              - img [ref=e144]
+              - link "+1 (203) 385-2243" [ref=e146] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e147]:
+              - img [ref=e148]
+              - link "info@eyebrowsbygg.com" [ref=e151] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e152]:
+          - heading "Studio Hours" [level=4] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - generic [ref=e156]: Mon - Sat
+              - generic [ref=e157]: 10:00am - 8:00pm
+            - listitem [ref=e158]:
+              - generic [ref=e159]: Sunday
+              - generic [ref=e160]: Closed
+          - link "Book Appointment" [ref=e162] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e163]:
+        - paragraph [ref=e164]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e165]:
+          - link "Privacy Policy" [ref=e166] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e167] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e168] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e169]
+  - generic [ref=e175] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e176]:
+      - img [ref=e177]
+    - generic [ref=e180]:
+      - button "Open issues overlay" [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]: "0"
+          - generic [ref=e184]: "1"
+        - generic [ref=e185]: Issue
+      - button "Collapse issues badge" [ref=e186]:
+        - img [ref=e187]
+  - alert [ref=e189]
+```

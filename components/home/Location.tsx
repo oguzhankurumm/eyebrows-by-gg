@@ -7,7 +7,7 @@ import { COMPANY_INFO } from "@/lib/content";
 export function Location() {
   return (
     <Section className="relative overflow-hidden">
-      <div className="container relative z-10">
+      <div className="relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
           {/* Info Panel */}
           <div className="space-y-8 order-2 lg:order-1">
@@ -60,22 +60,25 @@ export function Location() {
 
           {/* Map Container */}
           <div className="order-1 lg:order-2 h-full min-h-[450px]">
-            <div className="relative h-full w-full rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/20">
+            <div className="relative h-full w-full rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/20 ring-1 ring-white/20">
+              {/* Soft bloom shadow for premium feel */}
+              <div className="absolute inset-0 bg-primary/5 pointer-events-none mix-blend-overlay" />
+              
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.198305602447!2d-73.06789592398457!3d41.22631597131704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7df1d2c6a0b1b%3A0x6a0b1b2c3d4e5f6!2s972%20Boston%20Post%20Rd%2C%20Milford%2C%20CT%2006461!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                src="https://maps.google.com/maps?q=41.232029,-73.047825&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0 grayscale hover:grayscale-0 transition-all duration-700"
-                title="Eyebrows by GG Location"
+                className="absolute inset-0 grayscale-[0.2] hover:grayscale-0 transition-all duration-700"
+                title="Eyebrows by GG Location - 972 Boston Post Rd"
               ></iframe>
 
               {/* Overlay Badge */}
-              <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-md px-5 py-2.5 rounded-full shadow-lg border border-white/50">
-                <span className="font-medium text-sm text-foreground">{COMPANY_INFO.city}, {COMPANY_INFO.state}</span>
+              <div className="absolute bottom-6 right-6 bg-white/90 backdrop-blur-md px-5 py-2.5 rounded-full shadow-lg border border-white/50 z-10">
+                <span className="font-medium text-sm text-foreground">972 Boston Post Rd, Milford, CT</span>
               </div>
             </div>
           </div>

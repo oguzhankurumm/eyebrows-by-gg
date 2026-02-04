@@ -5,7 +5,7 @@
 ### A. GLOBAL BUSINESS INFO
 - **Business Name**: Eyebrows by GG
 - **Tagline**: "Let's Touch Your Beauty"
-- **Phone**: (203) 385-2243
+- **Phone**: +1 (203) 385-2243
 - **Location**: Milford, CT
 - **Booking Link**: `https://eyebrowsbygg.glossgenius.com/services`
 
@@ -44,8 +44,13 @@
 - **Address**: 972 Boston Post Rd, Milford, CT 06461
 - **Email**: info@eyebrowsbygg.com
 - **Hours**:
-  - Mon - Sat: 10:00 AM - 8:00 PM
-  - Sun: Closed
+  - Monday: 10:00am - 8:00pm
+  - Tuesday: 10:00am - 8:00pm
+  - Wednesday: 10:00am - 8:00pm
+  - Thursday: 10:00am - 8:00pm
+  - Friday: 10:00am - 8:00pm
+  - Saturday: 10:00am - 8:00pm
+  - Sunday: Closed
 
 ### D. PAGE STRUCTURE
 1. **Home**: Hero, Services Preview, Portfolio Preview, About Teaser, Location/Contact.

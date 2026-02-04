@@ -26,12 +26,12 @@ export function BookingBanner({
   return (
     <div
       className={cn(
-        "w-full bg-background/95 backdrop-blur-md border-t border-champagne/30 py-4 px-6 shadow-[0_-4px_20px_rgba(0,0,0,0.05)] z-50",
+        "w-full bg-background/95 backdrop-blur-md border-t border-border/40 py-4 px-6 shadow-[0_-4px_20px_rgba(0,0,0,0.05)] z-50",
         isFixed && "fixed bottom-0 left-0 right-0 animate-in slide-in-from-bottom-10 duration-500 fade-in",
         className
       )}
     >
-      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 max-w-5xl">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-start md:items-center justify-between w-full sm:w-auto gap-4">
             <div className="flex flex-col gap-0.5">
                 <h3 className="font-serif text-xl font-medium text-foreground tracking-wide">

@@ -15,16 +15,15 @@ export default function ServicesPage() {
   return (
     <div className="pt-24 pb-20">
       <Section>
-        <div className="container px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center mb-16 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <Chip variant="default" className="uppercase tracking-widest text-xs">Menu</Chip>
-            <h1 className="font-display text-4xl md:text-5xl font-light">Our Services</h1>
-            <p className="text-muted-foreground text-lg leading-relaxed">
-              Premium permanent makeup and beauty treatments tailored to your unique features.
-            </p>
-          </div>
+        <div className="max-w-3xl mx-auto text-center mb-16 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
+          <Chip variant="default" className="uppercase tracking-widest text-xs">Menu</Chip>
+          <h1 className="font-display text-4xl md:text-5xl font-light">Our Services</h1>
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            Premium permanent makeup and beauty treatments tailored to your unique features.
+          </p>
+        </div>
 
-          <div className="space-y-20">
+        <div className="space-y-20">
             {/* Custom order or just map categories? Let's iterate unique categories from data if strict order isn't needed, but I defined a loose order above */}
             {Array.from(new Set(SERVICES.map(s => s.category))).map((category) => (
               <div key={category} className="space-y-8 animate-in fade-in slide-in-from-bottom-8 duration-700">
@@ -80,7 +79,6 @@ export default function ServicesPage() {
               <ExternalBookingLink size="lg" className="px-12" />
             </div>
           </div>
-        </div>
       </Section>
     </div>
   )

@@ -1,0 +1,182 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: Brows
+      - heading "Nano Brows" [level=1] [ref=e19]
+      - paragraph [ref=e20]: Hyper-realistic hair strokes for a fluffy, natural finish. Best for normal/dry skin.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - heading "The Experience" [level=2] [ref=e26]
+          - paragraph [ref=e27]: Designed to enhance your unique facial architecture, our Nano Brows service offers a bespoke approach to permanent makeup. We prioritize skin health, longevity, and natural-looking results above all else.
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - img [ref=e31]
+              - generic [ref=e33]: Hyper-realistic hair strokes
+            - generic [ref=e34]:
+              - img [ref=e36]
+              - generic [ref=e38]: Natural finish
+            - generic [ref=e39]:
+              - img [ref=e41]
+              - generic [ref=e43]: Less trauma to skin
+        - generic [ref=e44]:
+          - heading "What to Expect" [level=2] [ref=e45]
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e49]: "1"
+              - generic [ref=e51]:
+                - heading "Consultation & Mapping" [level=3] [ref=e52]
+                - paragraph [ref=e53]: We begin by analyzing your bone structure and skin type to map the perfect shape. No ink touches your skin until you approve the pre-draw.
+            - generic [ref=e54]:
+              - generic [ref=e56]: "2"
+              - generic [ref=e58]:
+                - heading "The Artistry" [level=3] [ref=e59]
+                - paragraph [ref=e60]: Using premium pigments and precise techniques, we build color layer by layer for a natural, airy finish that heals beautifully.
+            - generic [ref=e61]:
+              - generic [ref=e63]: "3"
+              - generic [ref=e64]:
+                - heading "Heal & Perfect" [level=3] [ref=e65]
+                - paragraph [ref=e66]: Follow our simple aftercare routine. A touch-up session is recommended 6-8 weeks later to perfect the density and shape.
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - generic [ref=e73]:
+            - heading "Aftercare Essentials" [level=2] [ref=e74]
+            - paragraph [ref=e75]: Your results depend heavily on how you care for them. Avoid sweating, makeup on the brows, and direct sun for 10-14 days. We provide a full aftercare kit and guide at your appointment.
+            - generic [ref=e76]:
+              - generic [ref=e77]: No Water meant for 10 days
+              - generic [ref=e78]: Apply provided balm
+              - generic [ref=e79]: No picking/scratching
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: Service Details
+            - heading "Consult for Price" [level=3] [ref=e84]
+            - paragraph [ref=e85]:
+              - img [ref=e86]
+              - text: 3 Hours Session
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - img [ref=e91]
+              - generic [ref=e94]: Booking requires a non-refundable deposit to secure your slot.
+            - generic [ref=e95]:
+              - img [ref=e96]
+              - generic [ref=e99]: Fully licensed, insured, and health-department approved facility.
+          - button "Book Appointment" [ref=e100]
+          - paragraph [ref=e101]: Secure booking via GlossGenius
+        - generic [ref=e102]:
+          - heading "Ideal Candidate" [level=4] [ref=e103]
+          - paragraph [ref=e104]: Best for normal to dry skin. Ideal if you want the most natural, 'hair-like' texture without microblading trauma.
+          - generic [ref=e105]:
+            - generic [ref=e106]: Best for Dry Skin
+            - generic [ref=e107]: Natural Look
+            - generic [ref=e108]: Fluffy Finish
+  - contentinfo [ref=e109]:
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - link "Eyebrows by GG" [ref=e113] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e116]:
+            - link "Instagram" [ref=e117] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e118]
+            - link "Facebook" [ref=e121] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e122]
+        - generic [ref=e124]:
+          - heading "Explore" [level=4] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - link "Services" [ref=e128] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e130]:
+              - link "Portfolio" [ref=e131] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e133]:
+              - link "About" [ref=e134] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e136]:
+              - link "Blog" [ref=e137] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e139]:
+              - link "Contact" [ref=e140] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e142]:
+          - heading "Contact" [level=4] [ref=e143]
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - img [ref=e146]
+              - generic [ref=e149]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e150]:
+              - img [ref=e151]
+              - link "+1 (203) 385-2243" [ref=e153] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e154]:
+              - img [ref=e155]
+              - link "info@eyebrowsbygg.com" [ref=e158] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e159]:
+          - heading "Studio Hours" [level=4] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - generic [ref=e163]: Mon - Sat
+              - generic [ref=e164]: 10:00am - 8:00pm
+            - listitem [ref=e165]:
+              - generic [ref=e166]: Sunday
+              - generic [ref=e167]: Closed
+          - link "Book Appointment" [ref=e169] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e170]:
+        - paragraph [ref=e171]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e172]:
+          - link "Privacy Policy" [ref=e173] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e174] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e175] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e176]
+  - generic [ref=e182] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e183]:
+      - img [ref=e184]
+    - generic [ref=e187]:
+      - button "Open issues overlay" [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: "0"
+          - generic [ref=e191]: "1"
+        - generic [ref=e192]: Issue
+      - button "Collapse issues badge" [ref=e193]:
+        - img [ref=e194]
+  - alert [ref=e196]
+```

@@ -1,0 +1,285 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - button [ref=e5]:
+        - img [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: Menu
+        - heading "Our Services" [level=1] [ref=e13]
+        - paragraph [ref=e14]: Premium permanent makeup and beauty treatments tailored to your unique features.
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - heading "Brows" [level=2] [ref=e18]
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - generic [ref=e22]:
+                - generic [ref=e23]:
+                  - heading "Powder Brows" [level=3] [ref=e24]
+                  - generic [ref=e25]: $400
+                - paragraph [ref=e26]: Soft, misty shading that mimics the look of filled-in brows with makeup. Perfect for all skin types.
+              - generic [ref=e27]:
+                - generic [ref=e28]: Duration Varies
+                - button "Book Now" [ref=e29]
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - generic [ref=e32]:
+                  - heading "Combo Brows" [level=3] [ref=e33]
+                  - generic [ref=e34]: $450
+                - paragraph [ref=e35]: "The best of both worlds: natural hair strokes and soft shading for added definition."
+              - generic [ref=e36]:
+                - generic [ref=e37]: Duration Varies
+                - button "Book Now" [ref=e38]
+            - generic [ref=e39]:
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - heading "Nanoblading" [level=3] [ref=e42]
+                  - generic [ref=e43]: $500
+                - paragraph [ref=e44]: Ultra-realistic hair strokes created with a machine for a natural, fluffy look.
+              - generic [ref=e45]:
+                - generic [ref=e46]: Duration Varies
+                - button "Book Now" [ref=e47]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - heading "Eyebrows Touch Up" [level=3] [ref=e51]
+                  - generic [ref=e52]: $200
+                - paragraph [ref=e53]: Perfecting session for existing clients.
+              - generic [ref=e54]:
+                - generic [ref=e55]: Duration Varies
+                - button "Book Now" [ref=e56]
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - heading "Yearly Eyebrow Touch Up" [level=3] [ref=e60]
+                  - generic [ref=e61]: $400
+                - paragraph [ref=e62]: Annual color refresh.
+              - generic [ref=e63]:
+                - generic [ref=e64]: Duration Varies
+                - button "Book Now" [ref=e65]
+        - generic [ref=e66]:
+          - heading "Lips" [level=2] [ref=e68]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - heading "Lip Blush" [level=3] [ref=e74]
+                  - generic [ref=e75]: $500
+                - paragraph [ref=e76]: Enhance your natural lip shape and color with a soft wash of pigment.
+              - generic [ref=e77]:
+                - generic [ref=e78]: Duration Varies
+                - button "Book Now" [ref=e79]
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - generic [ref=e82]:
+                  - heading "Lip Blush Touch Up" [level=3] [ref=e83]
+                  - generic [ref=e84]: $250
+                - paragraph [ref=e85]: Perfecting session for lip blush.
+              - generic [ref=e86]:
+                - generic [ref=e87]: Duration Varies
+                - button "Book Now" [ref=e88]
+        - generic [ref=e89]:
+          - heading "General" [level=2] [ref=e91]
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - heading "Consultation" [level=3] [ref=e97]
+                - generic [ref=e98]: $75
+              - paragraph [ref=e99]: Discuss your goals and eligibility for permanent makeup.
+            - generic [ref=e100]:
+              - generic [ref=e101]: Duration Varies
+              - button "Book Now" [ref=e102]
+        - generic [ref=e103]:
+          - heading "Threading" [level=2] [ref=e105]
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - generic [ref=e110]:
+                  - heading "Eyebrow Threading" [level=3] [ref=e111]
+                  - generic [ref=e112]: $20
+                - paragraph [ref=e113]: Precision hair removal.
+              - generic [ref=e114]:
+                - generic [ref=e115]: Duration Varies
+                - button "Book Now" [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - heading "Eyebrow Threading & Henna Tinting" [level=3] [ref=e120]
+                  - generic [ref=e121]: $45
+                - paragraph [ref=e122]: Shape and tint for a bolder look.
+              - generic [ref=e123]:
+                - generic [ref=e124]: Duration Varies
+                - button "Book Now" [ref=e125]
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]:
+                  - heading "Upper Lip Threading" [level=3] [ref=e129]
+                  - generic [ref=e130]: $5
+                - paragraph [ref=e131]: Gentle hair removal.
+              - generic [ref=e132]:
+                - generic [ref=e133]: Duration Varies
+                - button "Book Now" [ref=e134]
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - generic [ref=e137]:
+                  - heading "Full Face Threading" [level=3] [ref=e138]
+                  - generic [ref=e139]: $60
+                - paragraph [ref=e140]: Complete facial hair removal.
+              - generic [ref=e141]:
+                - generic [ref=e142]: Duration Varies
+                - button "Book Now" [ref=e143]
+        - generic [ref=e144]:
+          - heading "Removal" [level=2] [ref=e146]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - heading "Natural Tattoo Removal + Vitamin" [level=3] [ref=e152]
+                - generic [ref=e153]: $150
+              - paragraph [ref=e154]: Gentle removal of unwanted pigment.
+            - generic [ref=e155]:
+              - generic [ref=e156]: Duration Varies
+              - button "Book Now" [ref=e157]
+        - generic [ref=e158]:
+          - heading "Treatment" [level=2] [ref=e160]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - heading "Natural Eyebrow Growth" [level=3] [ref=e166]
+                - generic [ref=e167]: $500
+              - paragraph [ref=e168]: Stimulate natural brow growth.
+            - generic [ref=e169]:
+              - generic [ref=e170]: Duration Varies
+              - button "Book Now" [ref=e171]
+        - generic [ref=e172]:
+          - heading "Products" [level=2] [ref=e174]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading "Eyebrow Growth Serum (3 products)" [level=3] [ref=e180]
+                - generic [ref=e181]: $175
+              - paragraph [ref=e182]: Take-home care kit.
+            - generic [ref=e183]:
+              - generic [ref=e184]: Duration Varies
+              - button "Book Now" [ref=e185]
+        - generic [ref=e186]:
+          - heading "Hair" [level=2] [ref=e188]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - heading "Hair Treatment" [level=3] [ref=e194]
+                - generic [ref=e195]: $1000
+              - paragraph [ref=e196]: Advanced hair restoration treatment.
+            - generic [ref=e197]:
+              - generic [ref=e198]: Duration Varies
+              - button "Book Now" [ref=e199]
+        - generic [ref=e200]:
+          - heading "Makeup" [level=2] [ref=e202]
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - heading "Make-up" [level=3] [ref=e208]
+                  - generic [ref=e209]: $100
+                - paragraph [ref=e210]: Professional makeup application.
+              - generic [ref=e211]:
+                - generic [ref=e212]: Duration Varies
+                - button "Book Now" [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - heading "Kids Make-up" [level=3] [ref=e217]
+                  - generic [ref=e218]: $50
+                - paragraph [ref=e219]: Light makeup for special occasions.
+              - generic [ref=e220]:
+                - generic [ref=e221]: Duration Varies
+                - button "Book Now" [ref=e222]
+      - generic [ref=e224]:
+        - heading "Ready to transform your look?" [level=3] [ref=e225]
+        - paragraph [ref=e226]: Book your appointment easily online via GlossGenius.
+        - button "Book Now" [ref=e227]
+  - contentinfo [ref=e228]:
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - generic [ref=e231]:
+          - link "Eyebrows by GG" [ref=e232] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e233]
+          - paragraph [ref=e234]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e235]:
+            - link "Instagram" [ref=e236] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e237]
+            - link "Facebook" [ref=e240] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e241]
+        - generic [ref=e243]:
+          - heading "Explore" [level=4] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Services" [ref=e247] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e249]:
+              - link "Portfolio" [ref=e250] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e252]:
+              - link "About" [ref=e253] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e255]:
+              - link "Blog" [ref=e256] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e258]:
+              - link "Contact" [ref=e259] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e261]:
+          - heading "Contact" [level=4] [ref=e262]
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - img [ref=e265]
+              - generic [ref=e268]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e269]:
+              - img [ref=e270]
+              - link "+1 (203) 385-2243" [ref=e272] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e273]:
+              - img [ref=e274]
+              - link "info@eyebrowsbygg.com" [ref=e277] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e278]:
+          - heading "Studio Hours" [level=4] [ref=e279]
+          - list [ref=e280]:
+            - listitem [ref=e281]:
+              - generic [ref=e282]: Mon - Sat
+              - generic [ref=e283]: 10:00am - 8:00pm
+            - listitem [ref=e284]:
+              - generic [ref=e285]: Sunday
+              - generic [ref=e286]: Closed
+          - link "Book Appointment" [ref=e288] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e289]:
+        - paragraph [ref=e290]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e291]:
+          - link "Privacy Policy" [ref=e292] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e293] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e294] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e295]
+  - button "Open Next.js Dev Tools" [ref=e302] [cursor=pointer]:
+    - img [ref=e303]
+  - alert [ref=e306]
+```

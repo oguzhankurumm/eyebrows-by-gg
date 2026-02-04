@@ -1,5 +1,6 @@
 import { LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Section } from "@/components/ui/section";
 
 interface Feature {
   icon: LucideIcon;
@@ -16,8 +17,7 @@ interface FeatureListProps {
 
 export function FeatureList({ title, subtitle, features, className }: FeatureListProps) {
   return (
-    <section className={cn("py-24 bg-background", className)}>
-      <div className="container">
+    <Section className={cn("bg-background", className)}>
         {(title || subtitle) && (
           <div className="text-center mb-16 space-y-4">
             {title && <h2 className="font-serif text-4xl md:text-5xl font-bold">{title}</h2>}
@@ -35,7 +35,6 @@ export function FeatureList({ title, subtitle, features, className }: FeatureLis
             </div>
           ))}
         </div>
-      </div>
-    </section>
+    </Section>
   );
 }

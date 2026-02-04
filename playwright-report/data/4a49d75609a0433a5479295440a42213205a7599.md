@@ -1,0 +1,208 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link "GG.Brows" [ref=e3] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e4]: GG.Brows
+      - generic [ref=e5]:
+        - link "Home" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=e7] [cursor=pointer]:
+          - /url: /services
+        - link "Portfolio" [ref=e8] [cursor=pointer]:
+          - /url: /portfolio
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: /about
+        - link "Blog" [ref=e10] [cursor=pointer]:
+          - /url: /blog
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: /contact
+      - button "Book Now" [ref=e13]
+  - main [ref=e14]:
+    - article [ref=e15]:
+      - generic [ref=e17]:
+        - link "Back to Blog" [ref=e18] [cursor=pointer]:
+          - /url: /blog
+          - img [ref=e19]
+          - text: Back to Blog
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - time [ref=e25]: March 20, 2024
+          - 'heading "Ombre Powder Brows vs. Microblading: Which One is Right for You?" [level=1] [ref=e26]'
+          - paragraph [ref=e27]: Confused about the difference between Ombre Powder Brows and Microblading? We break down the pros, cons, and results of each to help you decide.
+        - generic [ref=e29]:
+          - paragraph [ref=e30]:
+            - text: Choosing the right permanent makeup technique can be overwhelming. Both
+            - strong [ref=e31]: Ombre Powder Brows
+            - text: and
+            - strong [ref=e32]: Microblading
+            - text: offer fantastic results, but they cater to different skin types and aesthetic preferences.
+          - heading "What are Microblading?" [level=2] [ref=e33]
+          - paragraph [ref=e34]: Microblading is a manual technique where a handheld tool is used to create hair-like strokes. This mimics natural brow hairs and is great for filling in gaps.
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - strong [ref=e37]: Best for
+              - text: ": Dry to normal skin."
+            - listitem [ref=e38]:
+              - strong [ref=e39]: Look
+              - text: ": Very natural, hair-stroke effect."
+            - listitem [ref=e40]:
+              - strong [ref=e41]: Longevity
+              - text: ": 1-2 years."
+          - heading "What are Ombre Powder Brows?" [level=2] [ref=e42]
+          - paragraph [ref=e43]: Ombre Powder Brows use a machine to create a soft, shaded pencil look. The front of the brow starts lighter and gradually gets darker towards the tail, hence the name "Ombre".
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - strong [ref=e46]: Best for
+              - text: ": All skin types, especially oily or mature skin."
+            - listitem [ref=e47]:
+              - strong [ref=e48]: Look
+              - text: ": Soft makeup look, more defined."
+            - listitem [ref=e49]:
+              - strong [ref=e50]: Longevity
+              - text: ": 2-3 years."
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - heading "Not sure which style suits you?" [level=4] [ref=e53]
+              - paragraph [ref=e54]: Schedule a free consultation and we'll design the perfect brow for your face shape.
+            - button "Book a Consultation" [ref=e55]
+          - heading "Key Differences" [level=2] [ref=e56]
+          - list [ref=e57]:
+            - listitem [ref=e58]:
+              - strong [ref=e59]: Technique
+              - text: ": Microblading cuts the skin; Powder Brows deposit pigment via dots."
+            - listitem [ref=e60]:
+              - strong [ref=e61]: Pain Level
+              - text: ": Powder brows are generally less invasive and less painful."
+            - listitem [ref=e62]:
+              - strong [ref=e63]: Healing
+              - text: ": Powder brows often heal more predictably on oily skin."
+          - heading "Conclusion" [level=2] [ref=e64]
+          - paragraph [ref=e65]:
+            - text: If you want the "I woke up like this" makeup look and have oily skin,
+            - strong [ref=e66]: Ombre Powder Brows
+            - text: are likely your best bet. If you want a fluffy, undetectable hair-stroke look and have dry skin,
+            - strong [ref=e67]: Microblading
+            - text: (or Nano Brows) might be better.
+        - generic [ref=e68]:
+          - img [ref=e71]
+          - heading "Ready to enhance your brows?" [level=3] [ref=e74]
+          - paragraph [ref=e75]: Book your session today and wake up with perfect brows every morning.
+          - button "Book a Consultation" [ref=e76]
+        - generic [ref=e77]:
+          - heading "Related Articles" [level=2] [ref=e78]
+          - generic [ref=e79]:
+            - link "10 Things to Know Before Trying Microblading 10 Things to Know Before Trying Microblading Ever wondered what you should know before diving into the world of microblading? You're not alone. This guide unveils the top 10 insider secrets to get you prepped and confident. Buckle up, beauty enthusiast, for a transformative eyebrow journey you won't want to miss! 1. Understanding the Basics of Microblading Microblading is an intricate eyebrow October 4, 2023 Read Article" [ref=e80] [cursor=pointer]:
+              - /url: /blog/what-to-know-before-microblading
+              - img "10 Things to Know Before Trying Microblading" [ref=e82]
+              - generic [ref=e84]:
+                - heading "10 Things to Know Before Trying Microblading" [level=3] [ref=e85]
+                - paragraph [ref=e86]: Ever wondered what you should know before diving into the world of microblading? You're not alone. This guide unveils the top 10 insider secrets to get you prepped and confident. Buckle up, beauty enthusiast, for a transformative eyebrow journey you won't want to miss! 1. Understanding the Basics of Microblading Microblading is an intricate eyebrow
+                - generic [ref=e87]:
+                  - time [ref=e88]: October 4, 2023
+                  - generic [ref=e89]:
+                    - text: Read Article
+                    - img [ref=e90]
+            - 'link "Powder Brows 101: Everything You Need To Know Powder Brows 101: Everything You Need To Know Powder brows are a semi-permanent makeup technique mimicking a soft, powdered makeup look. Dive into our guide to read more. September 20, 2023 Read Article" [ref=e93] [cursor=pointer]':
+              - /url: /blog/what-is-powder-brows
+              - 'img "Powder Brows 101: Everything You Need To Know" [ref=e95]'
+              - generic [ref=e97]:
+                - 'heading "Powder Brows 101: Everything You Need To Know" [level=3] [ref=e98]'
+                - paragraph [ref=e99]: Powder brows are a semi-permanent makeup technique mimicking a soft, powdered makeup look. Dive into our guide to read more.
+                - generic [ref=e100]:
+                  - time [ref=e101]: September 20, 2023
+                  - generic [ref=e102]:
+                    - text: Read Article
+                    - img [ref=e103]
+  - contentinfo [ref=e106]:
+    - generic [ref=e107]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - link "Eyebrows by GG" [ref=e110] [cursor=pointer]:
+            - /url: /
+            - heading "Eyebrows by GG" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Premier permanent makeup studio in Milford, CT. Dedicated to precision artistry and natural beauty enhancement.
+          - generic [ref=e113]:
+            - link "Instagram" [ref=e114] [cursor=pointer]:
+              - /url: https://instagram.com/eyebrowsbygg
+              - img [ref=e115]
+            - link "Facebook" [ref=e118] [cursor=pointer]:
+              - /url: https://facebook.com
+              - img [ref=e119]
+        - generic [ref=e121]:
+          - heading "Explore" [level=4] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "Services" [ref=e125] [cursor=pointer]:
+                - /url: /services
+                - text: Services
+            - listitem [ref=e127]:
+              - link "Portfolio" [ref=e128] [cursor=pointer]:
+                - /url: /portfolio
+                - text: Portfolio
+            - listitem [ref=e130]:
+              - link "About" [ref=e131] [cursor=pointer]:
+                - /url: /about
+                - text: About
+            - listitem [ref=e133]:
+              - link "Blog" [ref=e134] [cursor=pointer]:
+                - /url: /blog
+                - text: Blog
+            - listitem [ref=e136]:
+              - link "Contact" [ref=e137] [cursor=pointer]:
+                - /url: /contact
+                - text: Contact
+        - generic [ref=e139]:
+          - heading "Contact" [level=4] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - img [ref=e143]
+              - generic [ref=e146]:
+                - text: 972 Boston Post Rd
+                - text: Milford, CT 06461
+            - listitem [ref=e147]:
+              - img [ref=e148]
+              - link "+1 (203) 385-2243" [ref=e150] [cursor=pointer]:
+                - /url: tel:12033852243
+            - listitem [ref=e151]:
+              - img [ref=e152]
+              - link "info@eyebrowsbygg.com" [ref=e155] [cursor=pointer]:
+                - /url: mailto:info@eyebrowsbygg.com
+        - generic [ref=e156]:
+          - heading "Studio Hours" [level=4] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - generic [ref=e160]: Mon - Sat
+              - generic [ref=e161]: 10:00am - 8:00pm
+            - listitem [ref=e162]:
+              - generic [ref=e163]: Sunday
+              - generic [ref=e164]: Closed
+          - link "Book Appointment" [ref=e166] [cursor=pointer]:
+            - /url: https://eyebrowsbygg.glossgenius.com/services
+      - generic [ref=e167]:
+        - paragraph [ref=e168]: © 2026 Eyebrows by GG. All rights reserved.
+        - generic [ref=e169]:
+          - link "Privacy Policy" [ref=e170] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e171] [cursor=pointer]:
+            - /url: /terms
+  - link "Chat with us on WhatsApp" [ref=e172] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=12033852243
+    - img [ref=e173]
+  - generic [ref=e179] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e180]:
+      - img [ref=e181]
+    - generic [ref=e184]:
+      - button "Open issues overlay" [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: "0"
+          - generic [ref=e188]: "1"
+        - generic [ref=e189]: Issue
+      - button "Collapse issues badge" [ref=e190]:
+        - img [ref=e191]
+  - alert [ref=e193]
+```

@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+import { Section } from "@/components/ui/section";
+
 interface CTASectionProps {
   title: string;
   description: string;
@@ -23,7 +25,7 @@ export function CTASection({
   className,
 }: CTASectionProps) {
   return (
-    <section className={cn("relative py-32 overflow-hidden bg-primary/90 text-primary-foreground", className)}>
+    <Section className={cn("relative overflow-hidden bg-primary/90 text-primary-foreground", className)} spacing="default">
       {backgroundImage && (
         <Image
           src={backgroundImage}
@@ -32,7 +34,7 @@ export function CTASection({
           className="object-cover opacity-10 mix-blend-multiply -z-10"
         />
       )}
-      <div className="container relative z-10 flex flex-col items-center text-center gap-6">
+      <div className="relative z-10 flex flex-col items-center text-center gap-6">
         <h2 className="font-serif text-4xl md:text-5xl font-bold tracking-tight text-balance">
           {title}
         </h2>
@@ -48,6 +50,6 @@ export function CTASection({
           </Button>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

@@ -14,7 +14,7 @@ export default function ContactPage() {
   return (
     <>
       <Section className="py-24 md:py-32 bg-muted/30">
-        <div className="container flex flex-col items-center text-center gap-6">
+        <div className="flex flex-col items-center text-center gap-6">
           <h1 className="font-serif text-5xl md:text-7xl font-medium tracking-tight text-foreground">
             Let&apos;s Connect
           </h1>

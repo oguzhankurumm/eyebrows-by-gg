@@ -36,7 +36,7 @@ export function Navbar() {
         "bg-white/80 backdrop-blur-xl border border-white/40 shadow-sm dark:bg-black/60 dark:border-white/10", // Glass tokens
         "rounded-full px-2 py-2 md:px-3 md:py-2.5", // Capsule shape
         "flex items-center justify-between gap-4",
-        isScrolled ? "w-[90%] md:w-auto" : "w-[95%] md:w-auto min-w-[320px] md:min-w-[600px]"
+        isScrolled ? "w-auto shadow-md" : "w-full max-w-5xl shadow-sm"
       )}>
 
         {/* Logo Area */}
