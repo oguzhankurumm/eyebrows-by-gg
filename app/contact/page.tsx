@@ -6,8 +6,8 @@ import { ContactForm } from "@/components/blocks/contact-form";
 import { COMPANY_INFO } from "@/lib/content/site";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Eyebrows by GG",
-  description: "Get in touch with Eyebrows by GG in Milford, CT. View our hours, location, and book your appointment.",
+  title: "Contact & Booking - Milford Beauty Studio | Eyebrows By GG",
+  description: "Visit Eyebrows By GG in Milford, CT. Call, email, or book your appointment online. Convenient location with flexible hours for your beauty needs.",
 };
 
 export default function ContactPage() {

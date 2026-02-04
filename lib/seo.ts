@@ -3,11 +3,11 @@ import { COMPANY_INFO } from "@/lib/content/site";
 
 export const siteConfig = {
   name: COMPANY_INFO.name,
-  description: "Expert microblading and ombre powder brows studio enhancing your natural beauty with precision and care.",
+  description: "Premier beauty studio in Milford, CT specializing in natural eyebrow microblading, ombre powder brows, and threading.",
   url: process.env.NEXT_PUBLIC_BASE_URL || "https://eyebrowsbygg.com",
-  ogImage: "https://eyebrowsbygg.com/assets/images/hero-bg.jpg", // Using hero image as default OG
+  ogImage: "https://eyebrowsbygg.com/assets/images/hero-bg.jpg",
   links: {
-    instagram: "https://instagram.com/eyebrowsbygg",
+    instagram: "https://www.instagram.com/eyebrows_by_gg/",
     booking: COMPANY_INFO.bookingUrl,
   }
 };
@@ -15,11 +15,11 @@ export const siteConfig = {
 export const sharedMetadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: siteConfig.name,
+    default: "Eyebrow Microblading Milford CT | Eyebrows By GG",
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["microblading", "ombre powder brows", "nano brows", "permanent makeup", "eyebrows", "beauty studio"],
+  keywords: ["Eyebrow microblading Milford CT", "Eyebrow threading Milford CT", "PMU artist Milford CT", "Eyebrows By GG", "Beauty studio Milford CT"],
   authors: [{ name: "Eyebrows by GG" }],
   creator: "Eyebrows by GG",
   openGraph: {

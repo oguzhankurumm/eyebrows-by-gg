@@ -1,9 +1,15 @@
 export const ABOUT_TEXT = {
-    headline: "20 Years Experience on Threading",
-    subheadline: "Certified PMU Artist",
-    bio: `Eyebrows By GG is your premier destination for exquisite beauty services in the heart of Milford, CT. 
+    headline: "Microblading Milford CT",
+    subheadline: "Welcome to Eyebrows By GG",
+    bio: `Welcome to Eyebrows By GG, your premier destination for exquisite beauty services in Milford, CT - the heart of New Haven County.
 
-Certified PMU and Makeup Artist GG brings over 20 years of experience in threading and expertise in powder eyebrows, nanoblading, and lip blush. 
+As a certified PMU artist, our founder, GG, brings an unparalleled level of expertise to every treatment, ensuring you leave our studio with brows that are not only flawlessly shaped but also tailored to enhance your unique features.
 
-We believe that beauty is an art form, and your face is our canvas. At our studio, we are dedicated to providing you with a comfortable, high-end experience that enhances your natural features. We adhere to the highest standards of hygiene and use only top-quality products to ensure your safety and satisfaction.`,
+With services ranging from eyebrow threading, powder brows, and nanoblading to eyebrow henna tinting and lip blush, our skilled team will craft a look that complements your style and leaves you feeling confidently beautiful.
+
+At Eye Brow By GG, we believe that beauty is an art form, and your face is our canvas.
+
+Our commitment to using top-quality products and maintaining strict hygiene standards ensures a safe and luxurious experience for all our cherished clients. Whether you're looking to refine your arches or embark on a transformative journey, our beauty center is your haven for unparalleled artistry and a touch of New Haven County glamour.
+
+Trust us with your beauty, and let your eyes captivate the world with their timeless allure.`,
 };

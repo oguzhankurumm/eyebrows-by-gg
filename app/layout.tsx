@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { siteConfig, sharedMetadata } from "@/lib/seo";
-import { COMPANY_INFO } from "@/lib/content/site";
 import { AnalyticsScript } from "@/components/analytics/AnalyticsScript";
 import { ScrollTracker } from "@/components/analytics/ScrollTracker";
 import { AmbientBackground } from "@/components/layout/ambient-background";
 import { WhatsAppFloatingButton } from "@/components/layout/WhatsAppFloatingButton";
+import { getLocalBusinessJsonLd } from "@/lib/structuredData";
 
 // Editorial Headline Font (Manrope) - Modern, clean, high-end
 const fontDisplay = localFont({
@@ -34,45 +34,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BeautySalon",
-    name: siteConfig.name,
-    description: siteConfig.description,
-    image: siteConfig.ogImage,
-    url: siteConfig.url,
-    telephone: COMPANY_INFO.phone,
-    email: COMPANY_INFO.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: COMPANY_INFO.address,
-      addressLocality: COMPANY_INFO.city,
-      addressRegion: COMPANY_INFO.state,
-      postalCode: COMPANY_INFO.zip,
-      addressCountry: "US"
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 41.2263,
-      longitude: -73.0679
-    },
-    priceRange: "$$",
-    openingHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        opens: "10:00",
-        closes: "20:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Sunday",
-        opens: "00:00",
-        closes: "00:00"
-      }
-    ],
-    sameAs: [siteConfig.links.instagram, siteConfig.links.booking]
-  };
+  const jsonLd = getLocalBusinessJsonLd({
+    baseUrl: siteConfig.url,
+    imageUrl: siteConfig.ogImage,
+  });
 
   return (
     <html lang="en">

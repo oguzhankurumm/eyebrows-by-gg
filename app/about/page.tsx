@@ -7,8 +7,8 @@ import Image from "next/image"
 import { Heart, Sparkles, ShieldCheck } from "lucide-react"
 
 export const metadata = {
-  title: "About GG - Eyebrows by GG",
-  description: "Meet GG, a Certified PMU Artist with over 20 years of experience in threading and permanent makeup.",
+  title: "About GG - Certified PMU Artist Milford CT | Eyebrows By GG",
+  description: "Meet GG, a Master Certified PMU artist with 20+ years of experience in eyebrow threading and microblading. Dedicated to safety, hygiene, and art.",
 }
 
 export default function AboutPage() {
@@ -30,10 +30,7 @@ export default function AboutPage() {
 
             <div className="prose prose-invert prose-lg text-muted-foreground leading-relaxed whitespace-pre-line">
               <p>
-                Eyebrows By GG is your premier destination for exquisite beauty services in the heart of Milford, CT. 
-              </p>
-              <p>
-                Certified PMU and Makeup Artist GG brings over 20 years of experience in threading and expertise in powder eyebrows, nanoblading, and lip blush. She combines technical precision with an artist&apos;s eye to create looks that are as unique as you are.
+                {ABOUT_TEXT.bio}
               </p>
             </div>
 
@@ -52,7 +49,7 @@ export default function AboutPage() {
 
           {/* Image/Visual */}
           <div className="order-1 lg:order-2 animate-in fade-in slide-in-from-right-8 duration-700 delay-200">
-            <div className="relative aspect-[3/4] md:aspect-square w-full max-w-md mx-auto lg:ml-auto">
+            <div className="relative aspect-[3/4] md:aspect-square w-full max-w-[70vw] md:max-w-md mx-auto lg:ml-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-[3rem] transform rotate-3 scale-105 blur-xl opacity-60" />
               <GlassCard className="h-full w-full overflow-hidden p-2 rounded-[2.5rem] bg-white/5 backdrop-blur-sm border-white/10">
                 <div className="h-full w-full relative rounded-[2rem] overflow-hidden bg-muted/20">

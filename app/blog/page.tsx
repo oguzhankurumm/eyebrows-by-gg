@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 
 export const metadata: Metadata = {
-  title: "Blog | Eyebrows by GG",
-  description: "Expert advice on eyebrow care, microblading trends, and aftercare tips to keep your brows looking perfect.",
+  title: "Beauty Blog & Expert Tips | Eyebrows By GG",
+  description: "Expert advice on permanent makeup care, brow trends, and skin health from Milford's trusted beauty specialists. Read our latest articles.",
 };
 
 export default function BlogIndexPage() {

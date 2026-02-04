@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import { Badge } from "@/components/ui/badge";
 import { siteConfig } from "@/lib/seo";
 import { Section } from "@/components/ui/section";
+import { getServiceJsonLd } from "@/lib/structuredData";
 
 interface ServicePageProps {
   params: Promise<{
@@ -32,10 +33,10 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   const ogImage = service.image ? `${siteConfig.url}${service.image}` : siteConfig.ogImage;
 
   return {
-    title: `${service.title} - Eyebrows by GG`,
+    title: `${service.title} Milford CT | Eyebrows By GG`,
     description: service.description,
     openGraph: {
-      title: service.title,
+      title: `${service.title} Milford CT | Eyebrows By GG`,
       description: service.description,
       images: [{ url: ogImage }],
     },
@@ -50,8 +51,25 @@ export default async function ServicePage({ params }: ServicePageProps) {
     notFound();
   }
 
+  const serviceJsonLd = getServiceJsonLd(
+    {
+      name: service.title,
+      description: service.description,
+      price: service.price,
+      url: `${siteConfig.url}/services/${slug}`,
+      bookingUrl: service.glossgeniusUrl,
+      category: service.category,
+      image: service.image,
+    },
+    { baseUrl: siteConfig.url }
+  );
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {/* Header */}
       <Section variant="default" className="pb-12 pt-32 md:pt-48 bg-secondary/30">
         <div className="max-w-3xl mx-auto text-center space-y-6">

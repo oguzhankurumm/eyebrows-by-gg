@@ -2,18 +2,34 @@ import { GlassCard } from "@/components/ui/glass-card"
 import { Section } from "@/components/ui/section"
 import { ExternalBookingLink } from "@/components/ui/external-booking-link"
 import { Chip } from "@/components/ui/chip"
-import { SERVICES } from "@/lib/content"
+import { services as SERVICES } from "@/lib/services"
+import { siteConfig } from "@/lib/seo"
+import { getServicesItemListJsonLd } from "@/lib/structuredData"
 
 export const metadata = {
-  title: "Services - Eyebrows by GG",
-  description: "Explore our premium permanent makeup services including Ombre Powder Brows, Nanoblading, and Lip Blush.",
+  title: "Permanent Makeup Services & Pricing | Eyebrows By GG",
+  description: "Explore our full menu of beauty services: Microblading, Nano Brows, Lip Blush, and more. View pricing and book your appointment in Milford, CT.",
 }
 
 export default function ServicesPage() {
   // Categories are dynamically derived from the SERVICES array below
+  const servicesJsonLd = getServicesItemListJsonLd(
+    SERVICES.map((s) => ({
+      name: s.title,
+      description: s.description,
+      price: s.price,
+      category: s.category,
+      url: `${siteConfig.url}/services`,
+    })),
+    { baseUrl: siteConfig.url }
+  );
 
   return (
     <div className="pt-24 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesJsonLd) }}
+      />
       <Section>
         <div className="max-w-3xl mx-auto text-center mb-16 space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <Chip variant="default" className="uppercase tracking-widest text-xs">Menu</Chip>
@@ -36,11 +52,11 @@ export default function ServicesPage() {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   {SERVICES.filter(s => s.category === category).map((service) => (
-                    <GlassCard key={service.name} className="p-6 md:p-8 flex flex-col justify-between gap-4 group hover:bg-white/5 transition-all duration-300 border-white/10 hover:border-white/20">
+                    <GlassCard key={service.slug} className="p-6 md:p-8 flex flex-col justify-between gap-4 group hover:bg-white/5 transition-all duration-300 border-white/10 hover:border-white/20">
                       <div className="space-y-3">
                         <div className="flex justify-between items-start gap-4">
                           <h3 className="font-display text-xl font-medium group-hover:text-primary transition-colors text-foreground/90">
-                            {service.name}
+                            {service.title}
                           </h3>
                           <span className="font-mono text-lg font-medium text-primary whitespace-nowrap bg-primary/10 px-3 py-1 rounded-full text-sm">
                             {service.price}

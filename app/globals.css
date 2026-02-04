@@ -102,6 +102,10 @@
   /* #9E6B82 - "Dusty Orchid" */
   --primary-foreground: hsl(0 0% 100%);
 
+  /* SOCIAL - Brands */
+  --whatsapp: #25D366;
+  --whatsapp-foreground: #ffffff;
+
   /* SECONDARY - Neutral Glass/Pill Backgrounds */
   --secondary: hsl(30 10% 96%);
   /* Very light warm grey */

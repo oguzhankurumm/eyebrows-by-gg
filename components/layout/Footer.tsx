@@ -1,12 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Facebook, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { COMPANY_INFO } from "@/lib/content";
 
 export function Footer() {
   const socialLinks = [
-    { icon: Instagram, href: "https://instagram.com/eyebrowsbygg", label: "Instagram" },
-    { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/eyebrows_by_gg/", label: "Instagram" },
+    { icon: Facebook, href: "https://www.facebook.com/people/Eyebrows-By-GG/100093073906952/", label: "Facebook" },
   ];
 
   const mainLinks = [
@@ -22,13 +23,19 @@ export function Footer() {
       {/* Decorative Glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-primary/5 blur-[100px] rounded-full pointer-events-none" />
 
-      <div className="container relative z-10 pt-20 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+      <div className="container relative z-10 py-12 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-12">
 
           {/* Brand Column */}
           <div className="space-y-6">
             <Link href="/" className="block">
-              <h3 className="font-display text-2xl font-semibold tracking-tight">{COMPANY_INFO.name}</h3>
+              <Image 
+                src="/images/logo.png" 
+                alt={COMPANY_INFO.name} 
+                width={200} 
+                height={60} 
+                className="w-auto h-12 object-contain"
+              />
             </Link>
             <p className="text-muted-foreground leading-relaxed max-w-xs">
               Premier permanent makeup studio in {COMPANY_INFO.city}, {COMPANY_INFO.state}. Dedicated to precision artistry and natural beauty enhancement.

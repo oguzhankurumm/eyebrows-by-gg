@@ -6,8 +6,8 @@ import { Section } from "@/components/ui/section";
 import { Chip } from "@/components/ui/chip";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Eyebrows by GG",
-  description: "View our portfolio of Ombre Powder Brows, Nano Brows, and corrections. See real results and transformations.",
+  title: "Before & After Eyebrow Transformations | Eyebrows By GG",
+  description: "See real results from our Milford studio. Browse our gallery of healed microblading, ombre brows, and lip blush work. Natural, lasting beauty.",
 };
 
 export default function PortfolioPage() {

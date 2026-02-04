@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   const ogImage = image || "/og-blog-default.jpg"; // Fallback image
 
   return {
-    title: `${title} | Eyebrows by GG Blog`,
+    title: `${title} | Eyebrows By GG Blog`,
     description: description,
     openGraph: {
       title: title,

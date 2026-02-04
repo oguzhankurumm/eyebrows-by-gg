@@ -8,33 +8,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
+import { services as allServices } from "@/lib/services";
 
-const services = [
-  {
-    title: "Ombre Powder Brows",
-    slug: "ombre-powder-brows",
-    description: "Soft, misty shading that mimics the look of filled-in brows with makeup. perfect for all skin types.",
-    image: "/images/stock/services/brows.jpg",
-    price: "Consultation Required",
-    tags: ["Best Seller", "All Skin Types"]
-  },
-  {
-    title: "Nano Brows",
-    slug: "nano-brows",
-    description: "Ultra-realistic hair strokes created with a machine for a natural, fluffy look.",
-    image: "/images/stock/services/facial.jpg", // Using facial as placeholder if specialized image not available
-    price: "Consultation Required",
-    tags: ["Natural Look", "Dry Skin"]
-  },
-  {
-    title: "Lip Blush",
-    slug: "lip-blush",
-    description: "Enhance your natural lip shape and color with a soft wash of pigment.",
-    image: "/images/stock/portfolio/portfolio-1.jpg", // Placeholder
-    price: "$450+",
-    tags: ["Color Correction", "Definition"]
-  }
-];
+const FEATURED_SLUGS = ["powder-brows", "nanoblading", "yearly-eyebrow-touch-up"];
+const services = FEATURED_SLUGS.map(slug => allServices.find(s => s.slug === slug)).filter((s): s is NonNullable<typeof s> => !!s);
 
 export function Services() {
   const shouldReduceMotion = useReducedMotion();

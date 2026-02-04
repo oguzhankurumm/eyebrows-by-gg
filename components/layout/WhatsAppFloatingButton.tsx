@@ -9,7 +9,7 @@ export const WhatsAppFloatingButton = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat with us on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-[#25D366]/40 transition-all duration-300 backdrop-blur-sm md:bottom-10 md:right-10 focus:outline-none focus:ring-4 focus:ring-[#25D366]/30"
+      className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 bg-[var(--whatsapp)] rounded-full shadow-lg hover:shadow-[var(--whatsapp)]/40 transition-all duration-300 backdrop-blur-sm md:bottom-10 md:right-10 focus:outline-none focus:ring-4 focus:ring-[var(--whatsapp)]/30"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1 }}

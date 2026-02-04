@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 // import { Button } from "@/components/ui/button" // Updated pill button
@@ -41,9 +42,14 @@ export function Navbar() {
 
         {/* Logo Area */}
         <Link href="/" className="pl-4 md:pl-5 pr-2 flex items-center gap-2 group">
-          <span className="font-display font-bold text-lg md:text-xl tracking-tight text-foreground group-hover:opacity-80 transition-opacity">
-            GG.<span className="text-primary font-normal">Brows</span>
-          </span>
+          <Image 
+            src="/images/logo.png" 
+            alt="Eyebrows By GG" 
+            width={180} 
+            height={50} 
+            className="w-auto h-8 md:h-10 object-contain dark:invert"
+            priority
+          />
         </Link>
 
         {/* Desktop Links - Pill style */}
