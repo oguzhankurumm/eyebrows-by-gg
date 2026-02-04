@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 8px);
+  --radius-sm: calc(var(--radius) - 16px);
+  --radius-xl: 3rem;
+  /* Extra large for big containers */
+  --radius-2xl: 4rem;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-bloom: bloom 3s ease-in-out infinite;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes bloom {
+
+    0%,
+    100% {
+      opacity: 0.8;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+}
+
+:root {
+  /* 
+    2026 BEAUTY BRAND DESIGN SYSTEM
+    Theme: "Ethereal Confidence"
+    Keywords: Clean, Editorial, Soft, Pill-shaped, Glass, No Gold
+  */
+
+  /* BASE - Soft Pearl White */
+  /* Using Oklch for wider gamut and better gradients if supported, 
+     but providing fallback HSL context */
+  --background: hsl(30 20% 99%);
+  /* #FDFBF9 - Extremely subtle warm white */
+  --foreground: hsl(260 10% 15%);
+  /* #24222A - Soft Black (Anthracite) */
+
+  /* SURFACE - Pure White */
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(260 10% 15%);
+
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(260 10% 15%);
+
+  /* PRIMARY - Restrained Berry (Orchid) */
+  /* A sophisticated, muted mauve/berry. Not pink, not purple. */
+  --primary: hsl(330 25% 55%);
+  /* #9E6B82 - "Dusty Orchid" */
+  --primary-foreground: hsl(0 0% 100%);
+
+  /* SECONDARY - Neutral Glass/Pill Backgrounds */
+  --secondary: hsl(30 10% 96%);
+  /* Very light warm grey */
+  --secondary-foreground: hsl(260 10% 20%);
+
+  /* MUTED - For subtitles and secondary text */
+  --muted: hsl(30 5% 94%);
+  --muted-foreground: hsl(260 5% 50%);
+
+  /* ACCENT - Subtle Glows (No Neon) */
+  --accent: hsl(330 30% 96%);
+  /* Extremely faint berry mist */
+  --accent-foreground: hsl(330 25% 40%);
+
+  /* DESTRUCTIVE */
+  --destructive: hsl(0 70% 60%);
+  --destructive-foreground: hsl(0 0% 98%);
+
+  /* BORDERS - Barely There */
+  --border: hsl(260 5% 92%);
+  --input: hsl(260 5% 92%);
+  --ring: hsl(330 25% 55%);
+
+  /* RADIUS - High Radius Language */
+  --radius: 2rem;
+  /* 32px - Default for cards */
+}
+
+.dark {
+  /* DARK MODE - Deep Charcoal (Not Black) */
+  /* A rich, luxurious dark grey/purple tone */
+  --background: hsl(260 8% 8%);
+  /* #131216 */
+  --foreground: hsl(30 10% 98%);
+
+  --card: hsl(260 8% 12%);
+  --card-foreground: hsl(30 10% 98%);
+
+  --popover: hsl(260 8% 12%);
+  --popover-foreground: hsl(30 10% 98%);
+
+  /* Primary lightens slightly for readability on dark */
+  --primary: hsl(330 30% 65%);
+  --primary-foreground: hsl(0 0% 100%);
+
+  --secondary: hsl(260 8% 18%);
+  --secondary-foreground: hsl(30 10% 98%);
+
+  --muted: hsl(260 8% 18%);
+  --muted-foreground: hsl(260 5% 65%);
+
+  --accent: hsl(260 8% 20%);
+  --accent-foreground: hsl(30 10% 98%);
+
+  --destructive: hsl(0 60% 30%);
+  --destructive-foreground: hsl(0 0% 98%);
+
+  --border: hsl(260 8% 20%);
+  --input: hsl(260 8% 20%);
+  --ring: hsl(330 30% 65%);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  /* EDITORIAL TYPOGRAPHY RULES */
+  h1,
+  .h1 {
+    @apply font-display text-5xl md:text-7xl lg:text-[5.5rem] font-semibold tracking-tight leading-[0.95] text-balance;
+  }
+
+  h2,
+  .h2 {
+    @apply font-display text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.05] text-balance;
+  }
+
+  h3,
+  .h3 {
+    @apply font-display text-2xl md:text-3xl font-medium tracking-normal;
+  }
+
+  h4,
+  .h4 {
+    @apply font-display text-xl md:text-2xl font-medium tracking-normal;
+  }
+
+  p,
+  .body {
+    @apply text-base md:text-lg leading-relaxed text-balance text-muted-foreground font-normal;
+  }
+
+  .lead {
+    @apply text-xl md:text-2xl leading-relaxed font-normal text-muted-foreground;
+  }
+}
+
+@layer components {
+
+  /* UTILITY: Layout */
+  .container-wide {
+    @apply max-w-[1500px] mx-auto px-4 md:px-8 w-full;
+  }
+
+  /* PRIMITIVE: Glass */
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-xl dark:bg-black/40 dark:border-white/10;
+  }
+
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-xl dark:bg-black/40 dark:border-white/10 rounded-[2.5rem];
+  }
+
+  .glass-bloom {
+    @apply absolute -z-10 bg-primary/20 blur-[100px] rounded-full;
+  }
+
+  /* PRIMITIVE: Cards */
+  .card-premium {
+    @apply bg-card rounded-[2rem] border border-border/40 shadow-sm transition-all duration-500 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  /* PRIMITIVE: Pills & Chips */
+  .pill {
+    @apply rounded-full px-6 py-2 flex items-center justify-center gap-2 transition-all duration-300;
+  }
+
+  .chip {
+    @apply inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-secondary text-secondary-foreground transition-colors hover:bg-primary/10 hover:text-primary;
+  }
+
+  /* PRIMITIVE: Buttons (Custom overrides) */
+  /* We will use a dedicated Button component, but these helper classes exist for standard HTML elements */
+  .btn-primary-pill {
+    @apply rounded-full bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3.5 font-medium text-lg transition-transform active:scale-95 shadow-md hover:shadow-primary/25;
+  }
+
+  .btn-glass-pill {
+    @apply rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-foreground hover:bg-white/20 px-8 py-3.5 font-medium text-lg transition-transform active:scale-95;
+  }
+}
