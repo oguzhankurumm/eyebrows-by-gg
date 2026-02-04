@@ -70,7 +70,7 @@ export function Services() {
               </div>
 
               <Image
-                src={service.image}
+                src={service.image || "/images/stock/services/services-hero.jpg"}
                 alt={service.title}
                 fill
                 className="object-cover transition-transform duration-1000 group-hover:scale-110"
