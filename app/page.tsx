@@ -35,7 +35,7 @@ export default function Home() {
       <Hero
         title={<>Elevating Beauty, <span className="text-primary font-serif italic">Effortlessly.</span></>}
         subtitle="Experience the art of hyper-realistic permanent makeup. Tailored to your unique bone structure for a look that is undeniably you."
-        imageSrc="/images/stock/home/home-hero.jpg"
+        imageSrc="/images/stock/home/home-hero.png"
         primaryCta={{ label: "Book Appointment", href: "https://eyebrowsbygg.glossgenius.com/services" }}
         secondaryCta={{ label: "View Portfolio", href: "/portfolio" }}
         trustText="Milford's Premier Studio"
