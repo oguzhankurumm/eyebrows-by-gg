@@ -27,3 +27,7 @@ New global skills are available on subsequent Codex turns. Some unrelated pre-ex
 Seven work-related Instagram posts and the published profile image were selected from a twelve-post response. Personal birthday/travel photographs were excluded. This is a curated website selection, not a claim to have archived the entire Instagram account. Four original portfolio videos are stored locally, resized to 540px wide, encoded for progressive loading and made silent. Every video has its original public post link, where the published audio remains available. No testimonial quote, clinical result claim or engagement statistic was invented.
 
 The account biography matches the owner-provided 28 years of eyebrow threading, shape expert, licensed PMU artist CT, AAM Gold Certified NJ and makeup artist. A published profile image is provenance, not proof of how it was produced.
+
+## Current business sources
+
+Read-only Google Maps place search/details retrieved the supplied business, author profiles and individual review links. Four excerpts remain under 25 words each; their selection and snapshot date are explicit. GlossGenius public SSR provided the 28 public service names, prices, lengths and deposits. Only those safe public fields were retained, not the raw account payload. Response headers establish that framing is blocked; the implementation uses a native dialog and secure popup, not an unverified iframe.

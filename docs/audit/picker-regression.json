@@ -1,0 +1,56 @@
+[
+  {
+    "width": 375,
+    "reducedMotion": "no-preference",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  },
+  {
+    "width": 768,
+    "reducedMotion": "no-preference",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  },
+  {
+    "width": 1440,
+    "reducedMotion": "no-preference",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  },
+  {
+    "width": 375,
+    "reducedMotion": "reduce",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  },
+  {
+    "width": 768,
+    "reducedMotion": "reduce",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  },
+  {
+    "width": 1440,
+    "reducedMotion": "reduce",
+    "pointerValue": "7",
+    "keyboardValue": "8",
+    "staysOpen": true,
+    "focusTrapped": true,
+    "publicReferenceAbsent": true
+  }
+]

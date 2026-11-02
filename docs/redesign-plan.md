@@ -71,3 +71,11 @@ The latest brief also requests live original-site completeness evidence, competi
 
 
 Source-preservation decision: the latest request requires every original fact to remain available. Rewritten marketing copy and metadata remain primary. A collapsed, explicitly historical original-website reference on each existing URL preserves the complete source body and JSON-LD-only FAQ text. This deliberate reference exception supersedes the original instruction to remove every old paragraph. Historical price conflicts remain source material, never selected current rates.
+
+## Final source authority decision — November 2, 2026
+
+The user explicitly approved the current GlossGenius menu as the single source for prices and appointment lengths. The 28-item public menu replaces historical pricing in all current-facing copy, hero previews and service details. Old values remain only in the internal historical archive. Current owner-written cancellation terms are 30% within 48 hours/no-shows. Google Maps provides business identity, coordinates, public opening hours and four attributed selected review excerpts; rating/count are dated snapshots. No content placeholder remains. A native booking dialog opens a secure separate window because GlossGenius CSP blocks iframe embedding. No dependency was added for the dialog, reviews or map.
+
+## User feedback correction — public source panel and treatment picker
+
+The user rejected the public Original website reference section. It is removed from all routes; archival source text remains internal, and documentation must not claim word-for-word public preservation. Current facts still use the approved menu, Google Maps and owner biography. The user also reported that the native dropdown closed before selection. It is replaced with an inline expandable list of native radio options, which remains open during selection and supports keyboard navigation. Dialog entrance no longer moves the dialog while a picker is being used. No dependency added.

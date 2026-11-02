@@ -2,7 +2,7 @@
 
 Source checked: November 2, 2026. Live WordPress REST endpoints at https://www.eyebrowsbygg.com/wp-json/wp/v2/pages?per_page=100 and https://www.eyebrowsbygg.com/wp-json/wp/v2/posts?per_page=100. The non-www URL redirects to this canonical host.
 
-The user approved new marketing copy and metadata. To retain the complete old information, every original route includes an accessible, collapsed original-website reference beneath the redesigned content. Current treatment cards remain separate from historical references. Old claims, dates, quotes and price tables are source material, not newly invented claims. Current credentials supersede the older experience summaries.
+The user approved new marketing copy and metadata and subsequently rejected the public Original website reference panel. That panel is removed from all routes. The complete old information is retained in the internal source archive, not republished on the website. The measurements below prove repository archival coverage and route retention; they do not prove word-for-word public coverage. Current business facts use approved sources.
 
 ## Measured result
 
@@ -16,7 +16,7 @@ The user approved new marketing copy and metadata. To retain the complete old in
 
 ## Price conflicts
 
-Microblading $350 vs $500 and combo brows $400 vs $450 remain unresolved. Historical values are retained only in the source reference. Active cards use confirmation placeholders. No competitor rate is used.
+The user resolved source authority on November 2: the current GlossGenius menu is the only source for active prices and durations. Microblading $350/$500 and combo $400/$450 remain historical values in the source reference. Active cards use the current menu; microblading has no separate current listing. No competitor rate is used.
 
 ## Per-route evidence
 

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T17:26:38.000184+00:00",
+  "title": "Design System: Eyebrows by GG",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Lilac white",
+        "tonalRamp": [
+          "oklch(15% 0.0031 300)",
+          "oklch(27% 0.0059 300)",
+          "oklch(39% 0.0081 300)",
+          "oklch(51% 0.009 300)",
+          "oklch(63% 0.0081 300)",
+          "oklch(75% 0.0063 300)",
+          "oklch(87% 0.0036 300)",
+          "oklch(95% 0.0013 300)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Soft lavender",
+        "tonalRamp": [
+          "oklch(15% 0.0105 300)",
+          "oklch(27% 0.0195 300)",
+          "oklch(39% 0.027 300)",
+          "oklch(51% 0.03 300)",
+          "oklch(63% 0.027 300)",
+          "oklch(75% 0.021 300)",
+          "oklch(87% 0.012 300)",
+          "oklch(95% 0.0045 300)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Deep plum",
+        "tonalRamp": [
+          "oklch(15% 0.0087 300)",
+          "oklch(27% 0.0163 300)",
+          "oklch(39% 0.0225 300)",
+          "oklch(51% 0.025 300)",
+          "oklch(63% 0.0225 300)",
+          "oklch(75% 0.0175 300)",
+          "oklch(87% 0.01 300)",
+          "oklch(95% 0.0037 300)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Studio violet",
+        "tonalRamp": [
+          "oklch(15% 0.0455 300)",
+          "oklch(27% 0.0845 300)",
+          "oklch(39% 0.117 300)",
+          "oklch(51% 0.13 300)",
+          "oklch(63% 0.117 300)",
+          "oklch(75% 0.091 300)",
+          "oklch(87% 0.052 300)",
+          "oklch(95% 0.0195 300)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted plum",
+        "tonalRamp": [
+          "oklch(15% 0.014 300)",
+          "oklch(27% 0.026 300)",
+          "oklch(39% 0.036 300)",
+          "oklch(51% 0.04 300)",
+          "oklch(63% 0.036 300)",
+          "oklch(75% 0.028 300)",
+          "oklch(87% 0.016 300)",
+          "oklch(95% 0.006 300)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Global h1."
+      },
+      "hero": {
+        "displayName": "Homepage hero",
+        "purpose": "Distinct 700-weight responsive slogan."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Global h3 with component overrides."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading copy."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Introductory reading."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Bold action controls."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-hover",
+        "value": "0 10px 24px color-mix(in srgb, var(--accent) 16%, transparent)",
+        "purpose": "Primary action feedback."
+      },
+      {
+        "name": "finish-preview",
+        "value": "0 16px 40px color-mix(in srgb, var(--text) 12%, transparent)",
+        "purpose": "Floating finish preview."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 18px 40px color-mix(in srgb, var(--text) 9%, transparent)",
+        "purpose": "Treatment card feedback."
+      },
+      {
+        "name": "mobile-dock",
+        "value": "0 8px 36px color-mix(in srgb, var(--text) 18%, transparent)",
+        "purpose": "Fixed mobile navigation."
+      },
+      {
+        "name": "comparison-handle",
+        "value": "0 4px 12px color-mix(in srgb, var(--text) 16%, transparent)",
+        "purpose": "Comparison handle."
+      },
+      {
+        "name": "booking-dialog",
+        "value": "0 24px 80px #211c2e33",
+        "purpose": "Modal dialog separation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "CSS interaction and arrival easing."
+      },
+      {
+        "name": "button-feedback",
+        "value": "0.25s",
+        "purpose": "Button transitions."
+      },
+      {
+        "name": "card-feedback",
+        "value": "0.4s",
+        "purpose": "Treatment card transitions."
+      },
+      {
+        "name": "photo-hover",
+        "value": "0.8s",
+        "purpose": "Treatment image scaling."
+      },
+      {
+        "name": "section-reveal",
+        "value": "480ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "One-shot 20px arrival, opacity 0.7 to 1."
+      },
+      {
+        "name": "booking-enter",
+        "value": "0.3s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Dialog opacity arrival."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop-adjustment-max",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "900px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "640px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main appointment action.",
+      "html": "<button class=\"ds-button ds-primary\">Book my appointment</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:56px;padding:16px 24px;border:0;border-radius:var(--radius,16px);font:700 14px/1.4 var(--font-body,Manrope),sans-serif;text-decoration:none;cursor:pointer;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1)),background .25s,box-shadow .25s}.ds-button:active{transform:scale(.97)}.ds-button:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}.ds-primary{background:var(--accent,#6341a5);color:var(--background,#f7f5fb)}.ds-primary:hover{background:var(--text,#211c2e);transform:translateY(-3px);box-shadow:0 10px 24px color-mix(in srgb,var(--accent,#6341a5) 16%,transparent)}@media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.ds-button{transition:none}.ds-button:hover,.ds-button:active{transform:none;box-shadow:none}}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supporting action on a light surface.",
+      "html": "<button class=\"ds-button ds-secondary\">See the results</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:56px;padding:16px 24px;border:0;border-radius:var(--radius,16px);font:700 14px/1.4 var(--font-body,Manrope),sans-serif;text-decoration:none;cursor:pointer;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1)),background .25s,box-shadow .25s}.ds-button:active{transform:scale(.97)}.ds-button:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}.ds-secondary{background:var(--surface,#e8e0f4);color:var(--text,#211c2e)}.ds-secondary:hover{background:color-mix(in srgb,var(--accent,#6341a5) 14%,var(--surface,#e8e0f4));transform:translateY(-2px)}@media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.ds-button{transition:none}.ds-button:hover,.ds-button:active{transform:none}}"
+    },
+    {
+      "name": "Inverse button",
+      "kind": "button",
+      "refersTo": "button-inverse",
+      "description": "Action on a violet panel.",
+      "html": "<div class=\"ds-dark\"><button class=\"ds-button ds-inverse\">Book my appointment</button></div>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:56px;padding:16px 24px;border:0;border-radius:var(--radius,16px);font:700 14px/1.4 var(--font-body,Manrope),sans-serif;text-decoration:none;cursor:pointer;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1)),background .25s,box-shadow .25s}.ds-button:active{transform:scale(.97)}.ds-button:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}.ds-dark{background:var(--accent,#6341a5);padding:24px}.ds-inverse{background:var(--background,#f7f5fb);color:var(--accent,#6341a5)}.ds-inverse:hover{background:var(--surface,#e8e0f4);transform:translateY(-3px)}.ds-inverse:focus-visible{outline-color:var(--background,#f7f5fb)}@media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.ds-button{transition:none}.ds-button:hover,.ds-button:active{transform:none}}"
+    },
+    {
+      "name": "Contact field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Labeled field with validation styling.",
+      "html": "<label class=\"ds-label\" for=\"ds-name\">Your name</label><input class=\"ds-field\" id=\"ds-name\" type=\"text\" autocomplete=\"name\">",
+      "css": ".ds-label{display:block;margin-bottom:8px;font:600 14px var(--font-body,Manrope),sans-serif;color:var(--text,#211c2e)}.ds-field{width:100%;min-height:52px;background:var(--background,#f7f5fb);color:var(--text,#211c2e);border:1px solid var(--muted,#655b73);border-radius:12px;padding:12px 16px;caret-color:var(--accent,#6341a5);font:400 16px/1.7 var(--font-body,Manrope),sans-serif}.ds-field[aria-invalid=true]{border:2px solid var(--accent,#6341a5)}.ds-field:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}"
+    },
+    {
+      "name": "Treatment filter",
+      "kind": "chip",
+      "refersTo": "treatment-filter",
+      "description": "Pill toggle; selected state is exposed through aria-pressed.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">All treatments</button>",
+      "css": ".ds-filter{padding:12px 20px;min-height:44px;border:0;border-radius:99px;background:var(--surface,#e8e0f4);color:var(--text,#211c2e);font:600 14px var(--font-body,Manrope),sans-serif;transition:background .25s,transform .25s;cursor:pointer}.ds-filter[aria-pressed=true]{background:var(--accent,#6341a5);color:var(--background,#f7f5fb)}.ds-filter:hover{transform:translateY(-2px)}.ds-filter:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}@media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.ds-filter{transition:none}.ds-filter:hover{transform:none}}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "refersTo": "navigation-link",
+      "description": "Rounded navigation links show current and hover state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#\" aria-current=\"page\">Treatments</a><a href=\"#\">Results</a><a href=\"#\">Visit</a></nav>",
+      "css": ".ds-nav{display:flex;gap:8px;font:600 14px var(--font-body,Manrope),sans-serif;color:var(--text,#211c2e)}.ds-nav a{padding:10px 16px;border-radius:12px;text-decoration:none;color:inherit;transition:background .2s}.ds-nav a:hover,.ds-nav a[aria-current]{background:var(--surface,#e8e0f4)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav a{transition:none}}"
+    },
+    {
+      "name": "Treatment graphic card",
+      "kind": "card",
+      "refersTo": "treatment-card",
+      "description": "Observed non-photographic treatment card treatment.",
+      "html": "<a class=\"ds-card\" href=\"#\"><div class=\"ds-graphic\"><span>Beauty, shaped around you.</span></div><div class=\"ds-copy\"><h3>Explore treatments</h3><span>View treatment details</span></div></a>",
+      "css": ".ds-card{display:block;text-decoration:none;overflow:hidden;background:var(--surface,#e8e0f4);color:var(--text,#211c2e);border-radius:var(--radius-card,28px);transition:transform .4s var(--ease,cubic-bezier(.16,1,.3,1)),box-shadow .4s}.ds-card:hover{transform:translateY(-7px);box-shadow:0 18px 40px color-mix(in srgb,var(--text,#211c2e) 9%,transparent)}.ds-graphic{display:flex;align-items:center;min-height:180px;padding:32px;background:var(--accent,#6341a5);color:var(--background,#f7f5fb);font:600 36px/1.1 var(--font-display,Sora),sans-serif;letter-spacing:-.04em}.ds-copy{padding:24px;font:700 13px var(--font-body,Manrope),sans-serif}.ds-copy h3{font:600 20px/1.35 var(--font-display,Sora),sans-serif;letter-spacing:-.025em;margin:0 0 24px}.ds-card:focus-visible{outline:3px solid var(--accent,#6341a5);outline-offset:5px}@media(prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.ds-card{transition:none}.ds-card:hover{transform:none;box-shadow:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Personal Beauty Studio",
+    "overview": "A personal beauty studio expressed through lilac-white space, lavender panels, violet actions and generous curved photography. Sora gives the studio a confident voice; Manrope keeps treatment information and booking controls approachable. The exact brand slogan is “Let’s touch your beauty”.\n\nThis is the implemented rounded studio world, selected through user feedback and extracted from the current code. Original client photographs and published studio Instagram media provide the visual detail. The historical seed is unverified and is not current direction authority; there is no approved comp or qualitycard.",
+    "keyCharacteristics": [
+      "Rounded image-led sections and treatment cards.",
+      "Interactive finish previews, treatment filters and real before/after comparison.",
+      "Four mobile destinations with a separate booking action.",
+      "Purposeful arrival, reveal and interaction motion with reduced-motion support."
+    ],
+    "rules": [
+      {
+        "name": "Five Roles",
+        "body": "Use background for the page and inset controls, surface for grouping, text for primary reading, accent for actions and selected states, and muted for supporting copy. Derived transparencies remain attached to these roles.",
+        "section": "colors"
+      },
+      {
+        "name": "Two Voices",
+        "body": "Use Sora for display and headings, and Manrope for reading and controls. Preserve the slogan’s curly apostrophe.",
+        "section": "typography"
+      },
+      {
+        "name": "Purposeful Lift",
+        "body": "Use soft elevation for floating previews, mobile navigation and the booking dialog; use hover lift to acknowledge actionable cards and buttons.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the five semantic palette roles and the two locally loaded font families.",
+      "Do preserve the exact slogan “Let’s touch your beauty”.",
+      "Do use original client and published studio media with provenance; preserve truthful before/after pairing.",
+      "Do keep visible keyboard focus, native controls, safe-area spacing and reduced-motion behavior.",
+      "Do preserve four mobile destinations and the separate booking action.",
+      "Do keep historical original-site reference material internal."
+    ],
+    "donts": [
+      "Don’t restore the rejected shade-library or magazine-cover direction.",
+      "Don’t invent synthetic treatment results, reviews, credentials or current prices.",
+      "Don’t replace the inline booking radio list with a browser select popup.",
+      "Don’t iframe or proxy GlossGenius; preserve the separate secure booking window and manual new-tab fallback.",
+      "Don’t apply desktop hover lifts or smooth-wheel behavior to touch interaction."
+    ]
+  }
+}

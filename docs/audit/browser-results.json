@@ -1,0 +1,1151 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/services/microblading/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/about/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/portfolio/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/areas/orange-ct/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/microblading-cost-connecticut-2026/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/cancellation/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/services/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/services/microblading/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/about/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/portfolio/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/blog/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/areas/orange-ct/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/microblading-cost-connecticut-2026/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/cancellation/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/services/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/services/microblading/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/about/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/portfolio/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/contact/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 1
+    },
+    {
+      "route": "/blog/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/areas/orange-ct/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/microblading-cost-connecticut-2026/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "route": "/cancellation/",
+      "width": 375,
+      "scrollWidth": 375,
+      "h1Count": 1,
+      "brokenImages": [],
+      "h1Lines": 2
+    },
+    {
+      "heroFinish": "Explore your next look\nLip blush\nA wash of color for your natural lips.\nView treatment\n$550"
+    },
+    {
+      "filteredCards": 1,
+      "filteredText": "Lip blush\n$550\n\nA wash of color. Your lips, defined.\n\nExplore treatment"
+    },
+    {
+      "allCards": 6
+    },
+    {
+      "afterState": "true"
+    },
+    {
+      "sliderKeyboardValue": "1"
+    },
+    {
+      "menuOpen": true
+    },
+    {
+      "menuClosed": true,
+      "menuFocus": true
+    },
+    {
+      "faqOpen": true
+    },
+    {
+      "publicSourcePanelAbsent": true
+    },
+    {
+      "video": {
+        "readyState": 4,
+        "paused": false,
+        "duration": 55.233333,
+        "muted": true,
+        "hasAudioTracks": 0
+      }
+    },
+    {
+      "formErrors": [
+        "Enter your name (at least 2 characters).",
+        "Enter a valid email address.",
+        "Choose a treatment or select ‘Help me choose’.",
+        "Add your question (at least 5 characters)."
+      ]
+    },
+    {
+      "formPrepared": "Email prepared. Send it in your email app. If it did not open, email info@eyebrowsbygg.com.",
+      "remainingErrors": 0,
+      "mailto": "mailto:info@eyebrowsbygg.com?subject=Brow%20question%3A%20Help%20me%20choose&body=Name%3A%20Website%20QA%0AEmail%3A%20qa%40example.com%0APhone%3A%20%0ATreatment%3A%20Help%20me%20choose%0A%0APlease%20help%20me%20compare%20brow%20finishes."
+    },
+    {
+      "motionNormal": {
+        "lenis": true,
+        "reduced": false
+      }
+    },
+    {
+      "motionReduced": {
+        "lenis": false,
+        "animations": 0,
+        "scroll": "auto"
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/microblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/combo-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-flawless-brows-with-eyebrow-threading-unveiling-the-secrets-of-eye-brow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-timeless-beauty-the-elegance-of-powder-eyebrows-at-eyebrow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-eyebrow-products-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-permanent-makeup-milford-ct/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/brow-lamination-cost-connecticut-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/brow-lamination-worth-the-hype/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/bushy-brows-permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/certified-pmu-artist-unlocking-the-artistry-of-permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/combo-brows-best-of-both-worlds/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/connecticut-microblading-cost-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sEyebrowsByGG+972+Boston+Post+Rd+Milford+CT!6i15",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/microblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/combo-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-flawless-brows-with-eyebrow-threading-unveiling-the-secrets-of-eye-brow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-timeless-beauty-the-elegance-of-powder-eyebrows-at-eyebrow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-eyebrow-products-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-permanent-makeup-milford-ct/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/brow-lamination-cost-connecticut-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/brow-lamination-worth-the-hype/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/bushy-brows-permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/certified-pmu-artist-unlocking-the-artistry-of-permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sEyebrowsByGG+972+Boston+Post+Rd+Milford+CT!6i15",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/microblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/combo-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/henna-tinting/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/touch-up/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/permanent-makeup/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-timeless-beauty-the-elegance-of-powder-eyebrows-at-eyebrow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-eyebrow-products-2026/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/achieving-flawless-brows-with-eyebrow-threading-unveiling-the-secrets-of-eye-brow-by-gg/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/best-permanent-makeup-milford-ct/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sEyebrowsByGG+972+Boston+Post+Rd+Milford+CT!6i15",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/lip-blush/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/powder-brows/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/eyebrow-threading/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "mailto:info@eyebrowsbygg.com?subject=Brow%20question%3A%20Help%20me%20choose&body=Name%3A%20Website%20QA%0AEmail%3A%20qa%40example.com%0APhone%3A%20%0ATreatment%3A%20Help%20me%20choose%0A%0APlease%20help%20me%20compare%20brow%20finishes.",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/portfolio/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/about/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/contact/",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:4178/services/nanoblading/",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

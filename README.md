@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eyebrows by GG
 
-## Getting Started
+Rounded brow and beauty-studio website built with Next.js 16, React, TypeScript and Tailwind. Static export preserves 90 existing URLs. Local self-hosted fonts, responsive WebP photographs, original Instagram portfolio films and GlossGenius booking.
 
-First, run the development server:
+## Run locally
 
-```bash
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. The contact form prepares an email in the visitor's email app; it does not submit to a backend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Verify and export
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+npm run lint
+npm run typecheck
+npm run build
+npm run verify:export
+npm run verify:source
+python3 -m http.server 4178 --directory out
+```
 
-## Learn More
+`npm run build` produces `out/` and creates missing responsive image variants. `verify:export` checks all routes, links/assets, metadata, headings, schema and AA contrast. `verify:source` checks the complete internal original-text archive, retention of all 90 routes and absence of the rejected public source panel. It does not assert word-for-word public coverage. The source proof uses Python's standard library and the original handoff baseline at ../site/data/pages.json. It checks the internal archive, not public old-copy coverage.
 
-To learn more about Next.js, take a look at the following resources:
+`npm run sync:source` refreshes the internal live-source archive and the coverage report. It requires network access and the handoff's `../site/data/pages.json`; ordinary builds do not fetch the old site or Instagram. See CLAUDE.md before changing content or deployment.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Handoff
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Current brief](docs/current-brief.md)
+- [Redesign plan](docs/redesign-plan.md)
+- [Competitive SWOT](docs/competitive-swot.md)
+- [Original content proof](docs/content-parity.md)
+- [Missing content](docs/todo-content.md)
+- [Media provenance](docs/assets.md)
+- [Tools and skills](docs/tools-and-skills.md)
+- [Design system](DESIGN.md)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Production deployment needs fresh explicit user approval. This repository's Vercel configuration is preserved; do not deploy a failing build.

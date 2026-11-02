@@ -2,23 +2,27 @@
 version: 1
 slug: "src-app-page-tsx"
 primary_target: "src/app/page.tsx"
-related_targets: ["src/components/pages/Home.tsx"]
+related_targets: ["src/components/pages/Home.tsx","src/components/site/Hero.tsx"]
 ---
 
-# Homepage replacement
+# Rounded beauty studio homepage
 
-Mode: Persuade. Readers are mobile visitors comparing brow finishes in Milford. Job: understand GG's work, compare services and book in GlossGenius. Preserve all routes, contact details and mailto behavior. User directs no questions; choose the direction and proceed. Existing AI portraits are authorized without a visible label.
+Mode: Persuade. Mobile visitors compare brow finishes and reserve a studio appointment. User explicitly requested a fuller rounded beauty-studio look, stronger hero, richer motion and mobile bottom tabs after rejecting the restrained serif version. No questions required. Existing AI assets remain retained without deletion; active artist imagery now comes from the official Instagram profile. Four original silent studio films, exact owner-provided credentials and current source-verified business information enriches the surface. Historical source details remain internal.
 
 ## Direction contract
 
-THESIS: GG's portrait and original client comparison become an artist's edited portfolio, with service choices immediately below. No salon promotional carousel.
+THESIS: The personal brow appointment becomes a visual, interactive treatment experience, with GG's portrait and a working finish preview immediately visible.
 
-OWN-WORLD: cool lavender-stone fields, deep plum controls, Prata display and Manrope body. Images vary in size on a twelve-column grid. No decorative cards or all-caps labels.
+OWN-WORLD: lilac-white and lavender surfaces, violet actions, Sora display and Manrope body. Rounded 16px controls, 28px image cards and 40px section panels. Real photography supplies detail.
 
-STORY: see the artist, understand brow shaping and permanent makeup, compare real results, choose a finish, find Milford and book.
+STORY: identify the artist, preview a finish, compare treatments and original results, understand the visit, then reserve a time through GlossGenius.
 
-FIRST VIEWPORT: two-line display headline left, lead and booking action immediately beneath; tall supplied GG portrait right, smaller client composite lower left, overlapping its space on mobile. Header includes four links and booking.
+FIRST VIEWPORT: bold two-line “Let’s touch your beauty” left; direct booking and result actions beneath. Tall rounded artist portrait right with identity card and floating treatment preview. Mobile reorders into a compact stack with a persistent four-destination navigation with a separate booking action.
 
-FORM: code-led uneven photograph portfolio, chosen to use supplied assets and honor the user's no-questions instruction. Taste seed 518559780; Impeccable seed:63c26a22bcb935d5. No approved comp. Signature interaction: switch the original before/after halves of the supplied brow photograph with keyboard-accessible buttons.
+FORM: code-led rounded beauty-studio bento, directly selected by user feedback. Earlier seed provenance is unverified historical context; the explicit later user-selected rounded direction is authoritative. Signature interactions: finish selector, treatment filters and keyboard-operable before/after range. No approved comp.
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+CURRENT DATA: all 28 live GlossGenius services, user approved as sole pricing authority; Google Maps 5.0/190 dated snapshot and four attributed short excerpts. Public hours weekdays 10–6:30, Saturday10–4. Native appointment-preview dialog opens separate secure booking window because cross-origin framing is blocked. This follows the user’s explicit modal request. No public content placeholders remain.
+
+LATEST USER FEEDBACK: remove all public Original website reference panels; keep audit material internal only. Replace the immediately closing browser dropdown with a stable inline radio list in the booking dialog. Treat user feedback as acceptance evidence over earlier captures.

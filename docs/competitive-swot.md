@@ -33,3 +33,7 @@ The SWOT is our inference from the public sources and supplied studio facts; it 
 5. Keep rounded Sora/Manrope styling. Enrich service comparison, studio information and mobile navigation without adding fake reviews, counters or guarantees.
 6. Preserve all 90 old URLs and expose complete sourced website detail through progressive disclosure. Verify actual text coverage independently from visual redesign.
 7. Keep the price conflicts visible in the content checklist; booking confirmation remains authoritative for current costs.
+
+## Implemented resolution
+
+The initial missing-price/review weaknesses are resolved: the user approved the current 28-item GlossGenius menu as the sole price/duration source, and the supplied Google Maps business yielded attributed review excerpts and current location/hours. Current treatment facts sit together; all legacy prices remain internal historical material. Mismatched active media was replaced with source-matched studio work. The user subsequently rejected public source-reference panels, so the archive is internal only.

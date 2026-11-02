@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "dialogOpen": true,
+      "preview": "$550\n210 minutes \u00b7 $75 deposit listed"
+    },
+    {
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "popupUrl": "https://eyebrowsbygg.glossgenius.com/services",
+      "parentUrl": "http://127.0.0.1:4178/",
+      "openerCleared": true
+    },
+    {
+      "blockedFallback": "Your browser blocked the booking window. Use the link below to open GlossGenius in a new tab.",
+      "manualFallback": "_blank"
+    },
+    {
+      "currentMenuRows": 28
+    },
+    {
+      "preselected": "7",
+      "focusWithinDialog": true
+    },
+    {
+      "mapUrl": "https://www.google.com/maps/embed?origin=mfe&pb=!1m3!2m1!1sEyebrowsByGG+972+Boston+Post+Rd+Milford+CT!6i15",
+      "mapAccessibleBusinessText": false
+    },
+    {
+      "route": "/services/",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 375,
+      "overflow": false
+    },
+    {
+      "dialogWidth": 375,
+      "overflow": false,
+      "height": 792
+    },
+    {
+      "route": "/services/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "dialogWidth": 768,
+      "overflow": false,
+      "height": 920.625
+    },
+    {
+      "route": "/services/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "dialogWidth": 1440,
+      "overflow": false,
+      "height": 922.78125
+    },
+    {
+      "reviewCards": 4,
+      "reviewSources": 4
+    }
+  ],
+  "errors": [],
+  "manualMapEvidence": "map-option.png was inspected: the embed shows EyebrowsByGG, 972 Boston Post Rd, rating 5.0/190 and the correct map pin. Business-label text was not exposed to the DOM locator."
+}
