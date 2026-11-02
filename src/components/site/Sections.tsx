@@ -82,7 +82,7 @@ export function Artist({ full = false }: { full?: boolean }) {
           <h2>
             One artist.
             <br />
-            Your own look.
+            Your look.
           </h2>
           <p className="lead">
             Gonul Gonenc brings a personal point of view to brow design in

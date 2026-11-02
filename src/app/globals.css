@@ -268,7 +268,6 @@ figcaption {
   grid-template-columns: 1.4fr 1fr 1fr;
   gap: 48px;
   padding-block: 48px;
-  border-top: 1px solid currentColor;
 }
 .footer-grid h2 {
   font: 600 1rem/1.5 var(--font-body);
@@ -460,6 +459,7 @@ address {
   justify-content: space-between;
   gap: 24px;
   padding-block: 24px;
+  /* taste-skill-ignore: separators identify rows in the priced treatment menu. */
   border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
@@ -604,6 +604,7 @@ address {
   margin-bottom: 24px;
 }
 .faq-list details {
+  /* taste-skill-ignore: separates keyboard-operable disclosure controls. */
   border-bottom: 1px solid var(--muted);
 }
 .faq-list summary {
@@ -970,7 +971,6 @@ address {
 }
 .guide-index li {
   padding-block: 32px;
-  border-top: 1px solid var(--muted);
 }
 .guide-index li a {
   text-decoration: none;
@@ -1150,5 +1150,18 @@ address {
   .contact-form-layout {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-detail figcaption {
+    background: var(--background);
+    padding-top: 8px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 540px) {
+  .footer-grid {
+    grid-template-columns: 1.3fr 0.7fr;
   }
 }

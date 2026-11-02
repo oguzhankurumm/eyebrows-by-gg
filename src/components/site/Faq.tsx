@@ -17,7 +17,7 @@ export const QUESTIONS = [
   },
   {
     q: "What if I need to change my booking?",
-    a: "The supplied studio policy requests at least 24 hours’ notice. Use your booking confirmation or call the studio. Review the booking policy for deposits, late arrivals and missed appointments.",
+    a: "The studio policy requests at least 24 hours’ notice. Use your booking confirmation or call the studio. Review the booking policy for deposits, late arrivals and missed appointments.",
   },
 ];
 export function Faq({

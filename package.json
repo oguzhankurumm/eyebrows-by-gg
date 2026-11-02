@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "prebuild": "node scripts/prepare-images.mjs"
+    "prebuild": "node scripts/prepare-images.mjs",
+    "verify:export": "node scripts/verify-export.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^7.0.1",

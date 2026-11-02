@@ -69,7 +69,7 @@ function ServicePage({ page }: { page: Page }) {
           <p>{service.detail}</p>
           <dl className="service-facts">
             <div>
-              <dt>Supplied price</dt>
+              <dt>Treatment price</dt>
               <dd>{service.price}</dd>
             </div>
             <div>
@@ -107,7 +107,7 @@ function Policy() {
       <section>
         <h2>Give 24 hours’ notice</h2>
         <p>
-          The supplied studio policy asks for at least 24 hours to cancel or
+          The studio policy asks for at least 24 hours to cancel or
           move an appointment. Use the link in your GlossGenius confirmation,
           call the studio or send a WhatsApp message.
         </p>

@@ -64,7 +64,7 @@ export function Home() {
             </p>
             <p>
               Choose a treatment to explore the detail. Listed prices come from
-              the supplied studio menu; confirm current details when booking.
+              the studio menu; confirm current details when booking.
             </p>
             <Link className="text-link" href="/services/">
               All treatments & appointment details
