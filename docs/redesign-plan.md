@@ -79,3 +79,7 @@ The user explicitly approved the current GlossGenius menu as the single source f
 ## User feedback correction — public source panel and treatment picker
 
 The user rejected the public Original website reference section. It is removed from all routes; archival source text remains internal, and documentation must not claim word-for-word public preservation. Current facts still use the approved menu, Google Maps and owner biography. The user also reported that the native dropdown closed before selection. It is replaced with an inline expandable list of native radio options, which remains open during selection and supports keyboard navigation. Dialog entrance no longer moves the dialog while a picker is being used. No dependency added.
+
+## Completion and release
+
+All implementation/copy/accessibility/SEO phases, current source updates, picker/reference feedback, responsive checks, independent ship review, design-system documentation and CLAUDE.md handoff are complete. No current-facing content placeholders remain. Build/lint/typecheck and export/archive checks pass. The user explicitly authorized push and production deployment; the release is READY at https://eyebrowsbygg.vercel.app. Details and source commit are recorded in docs/release.md.

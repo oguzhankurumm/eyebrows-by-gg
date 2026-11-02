@@ -57,3 +57,5 @@ BookingDialog previews public menu values, then opens GlossGenius in a separate 
 Never reintroduce the public Original website reference panel. It was explicitly rejected. The preserved source component was moved to docs/archive/SourceReference.tsx.txt; source data stays internal. The treatment picker is an inline expandable native-radio list, not a native popup select. Verify real pointer and keyboard interactions with normal motion; programmatic selectOption alone did not cover the reported bug.
 
 GitHub remote: https://github.com/oguzhankurumm/eyebrows-by-gg. The existing remote main has independent history. This release is pushed to redesign-studio-2026-11-02, preserving that history. Production deployment targets the user-specified eyebrowsbygg project in oguzhans-projects-852075c5, not the older repository homepage URL.
+
+Current release published successfully: https://eyebrowsbygg.vercel.app, deployment dpl_BxFu64zGEJS7a1XghCigyaie61DG, source commit49f72ea. See docs/release.md for checks and scope limits. Future changes are not automatically covered by this release’s authorization.

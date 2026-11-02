@@ -25,7 +25,7 @@ November 2, 2026. Static production export served locally and rendered in Chromi
 
 ## Scope limits and open content
 
-Desktop browser emulation does not establish behavior on actual iPhone/Safari hardware. No live booking was submitted, no external email was sent and no production deployment was performed. Public business hours, location, phone and review data were checked against the supplied Google Maps business. All 28 menu entries were checked against GlossGenius, which the user approved as the sole price/duration source. No unresolved current-facing content placeholders remain; docs/todo-content.md records the resolutions. Squoosh's old CLI ran in isolated Node 16 because its Node 24 WASM path failed; the application remains on the existing toolchain.
+Desktop browser emulation does not establish behavior on actual iPhone/Safari hardware. No live booking was submitted and no external email was sent. Production was deployed after explicit user authorization; Vercel reports READY and the correct alias. See docs/release.md. Public business hours, location, phone and review data were checked against the supplied Google Maps business. All 28 menu entries were checked against GlossGenius, which the user approved as the sole price/duration source. No unresolved current-facing content placeholders remain; docs/todo-content.md records the resolutions. Squoosh's old CLI ran in isolated Node 16 because its Node 24 WASM path failed; the application remains on the existing toolchain.
 
 Independent finish-review outcome is recorded separately in docs/finish-review.md. No claim of whole-surface approval precedes that review.
 
