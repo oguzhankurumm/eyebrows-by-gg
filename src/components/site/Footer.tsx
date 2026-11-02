@@ -1,5 +1,51 @@
 import Link from "next/link";
 import { ADDR, BOOK, EMAIL, IG, PHONE, PHONE_T } from "@/lib/site";
 export function Footer() {
-  return <footer className="footer"><div className="container"><div className="footer-top"><Link href="/" className="wordmark">eyebrows<span>by GG</span></Link><p>Brow artistry.<br />A personal point of view.</p><a href={BOOK} className="text-link">Book appointment</a></div><div className="footer-grid"><div><h2>Visit the studio</h2><address>{ADDR}</address><p>Monday–Saturday, 10am–8pm<br />Sunday closed</p></div><div><h2>Talk to GG</h2><a href={PHONE_T}>{PHONE}</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><a href={IG}>Instagram</a></div><nav aria-label="Explore"><h2>Explore</h2><Link href="/services/">Treatments</Link><Link href="/blog/">Brow guides</Link><Link href="/areas/">Connecticut studio</Link><Link href="/cancellation/">Booking policy</Link></nav></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Eyebrows by GG</span><span>Website: Oğuzhan Kurum</span><a href="#top">Back to top</a></div></div></footer>;
+  return (
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-top">
+          <Link href="/" className="wordmark">
+            eyebrows<span>by GG</span>
+          </Link>
+          <p>
+            Brow artistry.
+            <br />A personal point of view.
+          </p>
+          <a href={BOOK} className="text-link">
+            Book appointment
+          </a>
+        </div>
+        <div className="footer-grid">
+          <div>
+            <h2>Visit the studio</h2>
+            <address>{ADDR}</address>
+            <p>
+              Monday–Saturday, 10am–8pm
+              <br />
+              Sunday closed
+            </p>
+          </div>
+          <div>
+            <h2>Talk to GG</h2>
+            <a href={PHONE_T}>{PHONE}</a>
+            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+            <a href={IG}>Instagram</a>
+          </div>
+          <nav aria-label="Explore">
+            <h2>Explore</h2>
+            <Link href="/services/">Treatments</Link>
+            <Link href="/blog/">Brow guides</Link>
+            <Link href="/areas/">Connecticut studio</Link>
+            <Link href="/cancellation/">Booking policy</Link>
+          </nav>
+        </div>
+        <div className="footer-bottom">
+          <span>© {new Date().getFullYear()} Eyebrows by GG</span>
+          <span>Website: Oğuzhan Kurum</span>
+          <a href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  );
 }

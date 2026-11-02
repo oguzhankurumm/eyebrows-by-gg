@@ -8,7 +8,8 @@ export const ADDR = "972 Boston Post Rd, Milford, CT 06461";
 export const MAPS =
   "https://www.google.com/maps/search/?api=1&query=972+Boston+Post+Rd+Milford+CT+06461";
 export const IG = "https://www.instagram.com/eyebrows_by_gg/";
-export const FB = "https://www.facebook.com/profile.php?id=100093073906952&sk=about";
+export const FB =
+  "https://www.facebook.com/profile.php?id=100093073906952&sk=about";
 export const WA = "https://api.whatsapp.com/send?phone=12033852243";
 
 export const HOURS: [string, string][] = [
