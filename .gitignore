@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local visual QA captures; keep generated evidence without committing image churn.
+/.impeccable/review/
+/.taste-skill/inspect/

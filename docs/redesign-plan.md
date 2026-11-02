@@ -49,3 +49,25 @@ Commit audit, shell/tokens, homepage and pages, copy cleanup, responsive/accessi
 All 90 data records now contain rewritten titles, descriptions and plain structured copy. Old HTML, shortcodes, ratings, unsupported case counts and treatment promises are removed. Archived educational URLs are retained as concise topic-specific conversation guides; no fabricated clinical advice or product rankings. Policies are paraphrased from the supplied cancellation page. The homepage has six confirmed-price treatments; all nine service pages remain accessible from the service index. Unknown duration appears on seven service pages; the permanent-makeup overview has treatment-dependent pricing.
 
 Removed unused scroll effects, UI wrappers, WordPress parsing and their direct dependencies. Responsive images use the sharp package already bundled with Next.js to create local 320/640/960/1440px variants, served through a custom next/image loader compatible with static export. No runtime dependency was added. Google Fonts Prata and Manrope are committed locally with OFL licenses and display=swap. AI source portraits are recorded in an internal asset ledger; no on-page AI label, per user direction.
+
+## Updated direction: rounded beauty studio
+
+The user rejected the restrained serif revision as dated and requested a fuller salon/beauty identity, stronger hero, richer components, more animation and mobile app-style bottom navigation. This feedback supersedes the earlier visual direction above.
+
+Final direction: **Your brows. Your signature.** Sora 600/700 display and Manrope body; no serif font remains in the application. Five colors: #F7F5FB background, #E8E0F4 surface, #211C2E text, #6341A5 accent, #655B73 muted. Radii: controls 16px, cards 28px, sections 40px. Mobile cards use 20px corners. Floating navigation uses functional depth with an offset, blurred shadow.
+
+The hero pairs bold two-line type with a rounded artist portrait, an interactive treatment preview, direct booking and portfolio actions. Treatment filters, visual service cards, a draggable original/result comparison, numbered appointment cards, rounded FAQs and a booking panel create a richer beauty-studio experience. Mobile uses a five-item bottom navigation (Home, Treatments, Results, Visit, Book), safe-area spacing and two-column treatment cards. All tabs have real destinations and current-route states.
+
+Motion: staged hero typography and photo, floating preview entrance, treatment hover and filter feedback, original/result drag handle, FAQ expansion, and one-time scroll reveals. Content is visible without JavaScript; reduced-motion disables all authored animation. No animation package was added.
+
+Applied frontend-design, design-taste-frontend, Impeccable, copywriting and 21st-ui-build. Humanizer was not installed after searching local skill/plugin directories; its absence does not block the task. Copywriting diagnosis A: rejected copy needs a complete rewrite. Voice: direct, personal and practical; no fabricated guarantees or social proof. CTA: Book my appointment. 21st metadata references: ln-dev7 Animated Navigation Tabs (575) and Bento Grid Hero (26904). Component retrieval was quota-blocked, so no paid source was copied and no registry dependencies were installed. Components were authored locally from the requested behaviors.
+
+
+## Metadata decision and expanded brief (November 2, 2026)
+
+The user explicitly selected keeping the new copy and metadata and updating PROMPT.md. Older rules requiring verbatim copy/title/description/schema are superseded. URLs and canonical destinations remain stable. New factual schema remains; no blanket restoration of obsolete schema. The root PROMPT.md carries this decision; because the root is outside the Git repository, web/docs/current-brief.md also records it. No commit was made while the choice was pending.
+
+The latest brief also requests live original-site completeness evidence, competitive SWOT research, authentic Instagram photos/videos, the slogan “Let’s touch your beauty”, stronger studio credibility, Google/Instagram/Emil/Apple skills and explicit use of Godly, Fontshare, Realtime Colors, React Bits, Lenis and Squoosh. Production requires a fresh explicit approval.
+
+
+Source-preservation decision: the latest request requires every original fact to remain available. Rewritten marketing copy and metadata remain primary. A collapsed, explicitly historical original-website reference on each existing URL preserves the complete source body and JSON-LD-only FAQ text. This deliberate reference exception supersedes the original instruction to remove every old paragraph. Historical price conflicts remain source material, never selected current rates.

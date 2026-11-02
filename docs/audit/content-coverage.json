@@ -1,0 +1,812 @@
+[
+  {
+    "path": "/about/",
+    "sourceWords": 225,
+    "liveWords": 280,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/achieving-flawless-brows-with-eyebrow-threading-unveiling-the-secrets-of-eye-brow-by-gg/",
+    "sourceWords": 213,
+    "liveWords": 607,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 7
+  },
+  {
+    "path": "/achieving-timeless-beauty-the-elegance-of-powder-eyebrows-at-eyebrow-by-gg/",
+    "sourceWords": 200,
+    "liveWords": 692,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/areas/",
+    "sourceWords": 179,
+    "liveWords": 179,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/bridgeport/",
+    "sourceWords": 410,
+    "liveWords": 245,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/fairfield/",
+    "sourceWords": 406,
+    "liveWords": 240,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/milford-ct/",
+    "sourceWords": 619,
+    "liveWords": 453,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/new-haven/",
+    "sourceWords": 463,
+    "liveWords": 288,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/orange-ct/",
+    "sourceWords": 554,
+    "liveWords": 389,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/stratford/",
+    "sourceWords": 396,
+    "liveWords": 231,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/areas/west-haven/",
+    "sourceWords": 448,
+    "liveWords": 275,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/best-eyebrow-products-2026/",
+    "sourceWords": 1679,
+    "liveWords": 1482,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/best-permanent-makeup-milford-ct/",
+    "sourceWords": 889,
+    "liveWords": 693,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/blog/",
+    "sourceWords": 38,
+    "liveWords": 284,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/brow-lamination-cost-connecticut-2026/",
+    "sourceWords": 1794,
+    "liveWords": 1594,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/brow-lamination-worth-the-hype/",
+    "sourceWords": 687,
+    "liveWords": 499,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/bushy-brows-permanent-makeup/",
+    "sourceWords": 647,
+    "liveWords": 467,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 2
+  },
+  {
+    "path": "/cancellation/",
+    "sourceWords": 329,
+    "liveWords": 329,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/certified-pmu-artist-unlocking-the-artistry-of-permanent-makeup/",
+    "sourceWords": 1677,
+    "liveWords": 839,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/combo-brows-best-of-both-worlds/",
+    "sourceWords": 784,
+    "liveWords": 594,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/connecticut-microblading-cost-2026/",
+    "sourceWords": 865,
+    "liveWords": 685,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/connecticut-vs-nyc-microblading/",
+    "sourceWords": 914,
+    "liveWords": 722,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/contact/",
+    "sourceWords": 53,
+    "liveWords": 53,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/discover-the-beauty-of-eyebrow-henna-tinting-at-eyebrow-by-gg/",
+    "sourceWords": 1396,
+    "liveWords": 586,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/does-microblading-cause-hair-loss-2026/",
+    "sourceWords": 1401,
+    "liveWords": 1201,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/does-microblading-cause-hair-loss/",
+    "sourceWords": 1401,
+    "liveWords": 496,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/does-microblading-hurt/",
+    "sourceWords": 959,
+    "liveWords": 756,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/enhance-your-beauty-with-lip-blush-at-eyesbrows-by-gg/",
+    "sourceWords": 213,
+    "liveWords": 579,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 14
+  },
+  {
+    "path": "/eyebrow-growth-supplements-review-2026/",
+    "sourceWords": 1875,
+    "liveWords": 1680,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/eyebrow-henna-tinting-guide-2026/",
+    "sourceWords": 1396,
+    "liveWords": 1197,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/eyebrow-mistakes-that-age-you/",
+    "sourceWords": 1042,
+    "liveWords": 850,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/eyebrow-shape-psychology/",
+    "sourceWords": 1740,
+    "liveWords": 1538,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/eyebrow-tattooing-guide/",
+    "sourceWords": 763,
+    "liveWords": 763,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/eyebrow-trends-2026/",
+    "sourceWords": 790,
+    "liveWords": 591,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/free-consultation-what-to-bring/",
+    "sourceWords": 950,
+    "liveWords": 744,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/getting-started/",
+    "sourceWords": 526,
+    "liveWords": 526,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/",
+    "sourceWords": 14,
+    "liveWords": 438,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/how-it-works/",
+    "sourceWords": 687,
+    "liveWords": 687,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/how-long-does-microblading-last/",
+    "sourceWords": 897,
+    "liveWords": 706,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/how-to-choose-certified-pmu-artist/",
+    "sourceWords": 1677,
+    "liveWords": 1471,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/how-to-keep-microblading-from-fading/",
+    "sourceWords": 942,
+    "liveWords": 478,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/how-to-make-microblading-last/",
+    "sourceWords": 942,
+    "liveWords": 755,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/lip-blush-vs-lipstick/",
+    "sourceWords": 753,
+    "liveWords": 563,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/lip-blush-vs-permanent-lipstick/",
+    "sourceWords": 981,
+    "liveWords": 789,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/mens-permanent-makeup-privacy-milford-ct/",
+    "sourceWords": 1897,
+    "liveWords": 1691,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/microblading-aftercare-30-day-guide/",
+    "sourceWords": 815,
+    "liveWords": 623,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/microblading-aftercare-week-by-week/",
+    "sourceWords": 1039,
+    "liveWords": 836,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/microblading-before-after-gallery/",
+    "sourceWords": 720,
+    "liveWords": 536,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/microblading-correction-stories-real-cases/",
+    "sourceWords": 1911,
+    "liveWords": 1713,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/microblading-cost-connecticut-2026/",
+    "sourceWords": 980,
+    "liveWords": 789,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/microblading-for-mature-skin/",
+    "sourceWords": 1024,
+    "liveWords": 837,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/microblading-for-men/",
+    "sourceWords": 990,
+    "liveWords": 807,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/microblading-on-oily-skin-updated/",
+    "sourceWords": 918,
+    "liveWords": 719,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/microblading-touch-up-timing/",
+    "sourceWords": 1710,
+    "liveWords": 1506,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/microblading-vs-nanoblading-2026/",
+    "sourceWords": 902,
+    "liveWords": 708,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/microblading-vs-traditional-tattoo/",
+    "sourceWords": 871,
+    "liveWords": 678,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/milford-ct-beauty-scene-brows/",
+    "sourceWords": 868,
+    "liveWords": 673,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/nano-brows-vs-microblading-for-perfect-eyebrows/",
+    "sourceWords": 902,
+    "liveWords": 619,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/natural-eyebrow-growth-methods/",
+    "sourceWords": 837,
+    "liveWords": 637,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/perfect-eyebrow-shape-face-guide/",
+    "sourceWords": 848,
+    "liveWords": 651,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/permanent-eyeliner-guide-2026/",
+    "sourceWords": 832,
+    "liveWords": 646,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/permanent-makeup-cancer-survivors/",
+    "sourceWords": 938,
+    "liveWords": 752,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/permanent-makeup-complete-guide/",
+    "sourceWords": 1093,
+    "liveWords": 892,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/permanent-makeup-cost-connecticut-2026/",
+    "sourceWords": 1720,
+    "liveWords": 1518,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/permanent-makeup-removal-guide/",
+    "sourceWords": 979,
+    "liveWords": 790,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/photo-gallery/",
+    "sourceWords": 277,
+    "liveWords": 277,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/pmu-comparison-microblading-vs-powder-vs-combo/",
+    "sourceWords": 490,
+    "liveWords": 490,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/portfolio/",
+    "sourceWords": 8,
+    "liveWords": 9,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/powder-brows-vs-microblading-decision/",
+    "sourceWords": 1445,
+    "liveWords": 1253,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/powder-brows-vs-microblading/",
+    "sourceWords": 1445,
+    "liveWords": 603,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/services/",
+    "sourceWords": 58,
+    "liveWords": 59,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/services/combo-brows/",
+    "sourceWords": 989,
+    "liveWords": 558,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 14
+  },
+  {
+    "path": "/services/eyebrow-threading/",
+    "sourceWords": 221,
+    "liveWords": 221,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 13
+  },
+  {
+    "path": "/services/henna-tinting/",
+    "sourceWords": 230,
+    "liveWords": 230,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 14
+  },
+  {
+    "path": "/services/lip-blush/",
+    "sourceWords": 213,
+    "liveWords": 213,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 14
+  },
+  {
+    "path": "/services/microblading/",
+    "sourceWords": 1408,
+    "liveWords": 906,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 17
+  },
+  {
+    "path": "/services/nanoblading/",
+    "sourceWords": 213,
+    "liveWords": 213,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 7
+  },
+  {
+    "path": "/services/permanent-makeup/",
+    "sourceWords": 1201,
+    "liveWords": 745,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 14
+  },
+  {
+    "path": "/services/powder-brows/",
+    "sourceWords": 200,
+    "liveWords": 200,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/services/touch-up/",
+    "sourceWords": 205,
+    "liveWords": 205,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/soap-brows-how-to/",
+    "sourceWords": 897,
+    "liveWords": 704,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/ultimate-guide-microblading-on-oily-skin/",
+    "sourceWords": 918,
+    "liveWords": 484,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 4
+  },
+  {
+    "path": "/ultimate-guide-to-microblading-2026/",
+    "sourceWords": 1550,
+    "liveWords": 1354,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 10
+  },
+  {
+    "path": "/unveiling-the-beauty-secrets-your-guide-to-eyebrow-perfection/",
+    "sourceWords": 58,
+    "liveWords": 453,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 0
+  },
+  {
+    "path": "/wedding-eyebrows-connecticut/",
+    "sourceWords": 1008,
+    "liveWords": 820,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 3
+  },
+  {
+    "path": "/wedding-eyebrows-timeline-connecticut/",
+    "sourceWords": 1807,
+    "liveWords": 1612,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 5
+  },
+  {
+    "path": "/what-are-powder-brows-explained/",
+    "sourceWords": 1410,
+    "liveWords": 1203,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/what-is-powder-brows/",
+    "sourceWords": 1410,
+    "liveWords": 555,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/what-to-know-before-microblading-2026/",
+    "sourceWords": 1435,
+    "liveWords": 1234,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  },
+  {
+    "path": "/what-to-know-before-microblading/",
+    "sourceWords": 1435,
+    "liveWords": 567,
+    "handoffTextPreserved": true,
+    "liveTextPreserved": true,
+    "liveFound": true,
+    "faqCount": 6
+  }
+]
