@@ -1,48 +1,5 @@
 import Link from "next/link";
-import { BOOK, EMAIL, FB, HOURS, IG, MAPS, NAV, PHONE, PHONE_T, WA } from "@/lib/site";
-
+import { ADDR, BOOK, EMAIL, IG, PHONE, PHONE_T } from "@/lib/site";
 export function Footer() {
-  return (
-    <>
-      <footer className="foot">
-        <div className="foot-photo"><img src="/assets/img/2023_07_portfolio-12.webp" alt="Lip blush result by Eyebrows by GG" loading="lazy" /></div>
-        <div className="foot-body">
-          <p className="big">Eyebrows <i>by</i> GG</p>
-          <nav aria-label="Footer">
-            <ul className="foot-menu">
-              {NAV.map(([n, u]) => <li key={u}><Link href={u}>{n}</Link></li>)}
-              <li><a href={BOOK} rel="noopener">Book Online</a></li>
-            </ul>
-          </nav>
-          <div className="foot-cols">
-            <div>
-              <span className="fh">Visit</span>
-              <p>972 Boston Post Rd,<br />Milford, CT 06461</p>
-              <p><a href={MAPS} rel="noopener">Get directions</a></p>
-              <span className="fh">Hours</span>
-              <ul>{HOURS.map(([d, h]) => <li key={d}>{d.slice(0, 3)} &nbsp; {h}</li>)}</ul>
-            </div>
-            <div>
-              <span className="fh">Contact</span>
-              <ul>
-                <li><a href={PHONE_T}>{PHONE}</a></li>
-                <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
-                <li><a href={IG} rel="noopener">Instagram</a></li>
-                <li><a href={FB} rel="noopener">Facebook</a></li>
-                <li><a href={WA} rel="noopener">WhatsApp</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="fine">
-            <span>© 2026 Eyebrows By GG. All rights reserved.</span>
-            <span>Website: Oğuzhan Kurum</span>
-          </div>
-        </div>
-      </footer>
-      <div className="dock">
-        <a href={BOOK} rel="noopener">Book</a>
-        <a href={PHONE_T}>Call</a>
-      </div>
-    </>
-  );
+  return <footer className="footer"><div className="container"><div className="footer-top"><Link href="/" className="wordmark">eyebrows<span>by GG</span></Link><p>Brow artistry.<br />A personal point of view.</p><a href={BOOK} className="text-link">Book appointment</a></div><div className="footer-grid"><div><h2>Visit the studio</h2><address>{ADDR}</address><p>Monday–Saturday, 10am–8pm<br />Sunday closed</p></div><div><h2>Talk to GG</h2><a href={PHONE_T}>{PHONE}</a><a href={`mailto:${EMAIL}`}>{EMAIL}</a><a href={IG}>Instagram</a></div><nav aria-label="Explore"><h2>Explore</h2><Link href="/services/">Treatments</Link><Link href="/blog/">Brow guides</Link><Link href="/areas/">Connecticut studio</Link><Link href="/cancellation/">Booking policy</Link></nav></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Eyebrows by GG</span><span>Website: Oğuzhan Kurum</span><a href="#top">Back to top</a></div></div></footer>;
 }

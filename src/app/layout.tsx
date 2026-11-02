@@ -1,29 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { Schibsted_Grotesk } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
-import { SmoothScroll } from "@/components/site/SmoothScroll";
 import { ORIGIN } from "@/lib/site";
 
-const schibsted = Schibsted_Grotesk({ subsets: ["latin"], variable: "--font-schibsted", display: "swap", weight: ["400", "500", "600", "700", "800", "900"] });
-
-export const metadata: Metadata = {
-  metadataBase: new URL(ORIGIN),
-  icons: { icon: "/assets/img/2023_07_bygg-logo-1.webp" },
-};
-export const viewport: Viewport = { themeColor: "#1A1211" };
-
+const display = localFont({ src: "../assets/fonts/Prata-400.ttf", variable: "--font-display", display: "swap", weight: "400" });
+const body = localFont({ src: [
+  { path: "../assets/fonts/Manrope-400.ttf", weight: "400" },
+  { path: "../assets/fonts/Manrope-600.ttf", weight: "600" },
+  { path: "../assets/fonts/Manrope-700.ttf", weight: "700" },
+], variable: "--font-body", display: "swap" });
+export const metadata: Metadata = { metadataBase: new URL(ORIGIN), title: "Eyebrows by GG | Brow studio in Milford, CT", description: "Brow shaping and permanent makeup with Gonul Gonenc in Milford, Connecticut. Explore services, view client results and book online." };
+export const viewport: Viewport = { themeColor: "#F4F3F6" };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en" className={`${schibsted.variable}`}>
-      <body>
-        <SmoothScroll />
-        <a className="skip" href="#main">Skip to content</a>
-        <Header />
-        {children}
-        <Footer />
-      </body>
-    </html>
-  );
+  return <html lang="en" className={`${display.variable} ${body.variable}`}><body><a className="skip" href="#main">Skip to content</a><Header />{children}<Footer /></body></html>;
 }
