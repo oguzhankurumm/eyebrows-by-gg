@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { Reviews } from "./Reviews";
+import { StudioMap } from "./StudioMap";
+import photos from "@/data/photos.json";
+import { Icon } from "./Icon";
 import { ADDR, BOOK, EMAIL, HOURS, MAPS, PHONE, PHONE_T } from "@/lib/site";
 import { SERVICES, servicePath } from "@/lib/services";
 import { Photo } from "./Photo";
@@ -23,11 +27,23 @@ export function ServiceList({ compact = false }: { compact?: boolean }) {
           href={servicePath(service)}
           className="service-row"
         >
+          {service.slug === "henna-tinting" ? (
+            <span className="service-thumb-graphic">
+              <Icon name="treatments" size={28} />
+            </span>
+          ) : (
+            <Photo
+              name={service.image as keyof typeof photos}
+              alt=""
+              sizes="80px"
+            />
+          )}
           <span>
             <h3>{service.name}</h3>
             <span className="service-summary">{service.summary}</span>
           </span>
           <span className="price">{service.price}</span>
+          <Icon name="diagonal" size={18} />
         </Link>
       ))}
     </div>
@@ -37,30 +53,30 @@ export function Process() {
   return (
     <section className="section container process" id="process">
       <div>
-        <h2>Your appointment</h2>
+        <h2>Good brows start here.</h2>
         <p className="lead">
-          Start with a conversation.
+          Bring your ideas.
           <br />
-          Leave with a plan.
+          We’ll work through the detail.
         </p>
       </div>
       <ol>
         <li>
-          <h3>Talk it through</h3>
+          <h3>Tell GG what you like</h3>
           <p>
             Bring your references. Discuss your current brows, previous
             treatments and the finish you have in mind.
           </p>
         </li>
         <li>
-          <h3>Choose the detail</h3>
+          <h3>Find your shape</h3>
           <p>
             Talk through shape, color and technique with GG. Ask to see how each
             choice relates to your face.
           </p>
         </li>
         <li>
-          <h3>Plan what comes next</h3>
+          <h3>Make a plan together</h3>
           <p>
             Confirm the treatment, preparation and follow-up before you commit.
             Keep your care instructions close after your visit.
@@ -75,23 +91,26 @@ export function Artist({ full = false }: { full?: boolean }) {
     <section className="section surface">
       <div className="container artist-grid">
         <figure>
-          <Photo name="gg-cover" alt="Portrait of Gonul Gonenc, known as GG" />
+          <Photo
+            name="gg-instagram"
+            alt="Portrait of Gonul Gonenc, known as GG"
+          />
           <figcaption>Gonul Gonenc, the artist behind GG.</figcaption>
         </figure>
         <div>
           <h2>
-            One artist.
+            Your shape.
             <br />
-            Your look.
+            GG’s expertise.
           </h2>
           <p className="lead">
-            Gonul Gonenc brings a personal point of view to brow design in
-            Milford, Connecticut.
+            Gonul Gonenc brings 28 years of eyebrow threading experience to the
+            detail of your shape. You can call her GG.
           </p>
           <p>
-            Threading, tinting, hair strokes or shading: start with what you
-            want to see in the mirror. Talk with GG about the shape and finish
-            that feel like you.
+            Bring the brow photo you’ve saved on your phone. Tell GG what you
+            love about it and what you’d change. Start there, then talk through
+            the detail together.
           </p>
           {full ? (
             <p>
@@ -101,7 +120,7 @@ export function Artist({ full = false }: { full?: boolean }) {
             </p>
           ) : (
             <Link className="text-link" href="/about/">
-              More about GG
+              Meet your artist
             </Link>
           )}
         </div>
@@ -109,35 +128,12 @@ export function Artist({ full = false }: { full?: boolean }) {
     </section>
   );
 }
-export function Trust() {
-  return (
-    <section className="section container trust">
-      <div>
-        <h2>Let the work speak</h2>
-        <p className="lead">
-          Close-up photographs.
-          <br />A clearer starting point.
-        </p>
-        <Link className="text-link" href="/portfolio/">
-          Explore client results
-        </Link>
-      </div>
-      <div className="review-slot">
-        <h3>Client words</h3>
-        <p>[TODO: approved review and source]</p>
-        <p className="small muted">
-          A verified customer perspective belongs here. Until then, explore the
-          studio’s own portfolio.
-        </p>
-      </div>
-    </section>
-  );
-}
+export function Trust() { return <Reviews/>; }
 export function Questions() {
   return (
     <section className="section container questions">
       <div>
-        <h2>Before you book</h2>
+        <h2>A few things to know.</h2>
         <p>Answers to the questions that shape your appointment.</p>
         <Link className="text-link" href="/contact/">
           Ask GG a question
@@ -152,7 +148,7 @@ export function Location() {
     <section className="section surface" id="visit">
       <div className="container location">
         <div>
-          <h2>Find us in Milford</h2>
+          <h2>Your next stop: Milford.</h2>
           <address className="lead">{ADDR}</address>
           <a className="text-link" href={MAPS}>
             Get directions
@@ -173,7 +169,7 @@ export function Location() {
             ))}
           </dl>
         </div>
-      </div>
+      </div><div className="container"><StudioMap/></div>
     </section>
   );
 }
@@ -181,12 +177,12 @@ export function Booking() {
   return (
     <section className="section on-dark booking">
       <div className="container">
-        <h2>A little more you.</h2>
+        <h2>Ready for your brow moment?</h2>
         <p className="lead">
-          Choose your treatment and find your next appointment with GG.
+          Pick your treatment. Find a time. GG will see you in Milford.
         </p>
         <a className="button" href={BOOK}>
-          Book appointment
+          Book my appointment <Icon name="arrow" />
         </a>
         <p className="small">Booking and availability through GlossGenius.</p>
       </div>

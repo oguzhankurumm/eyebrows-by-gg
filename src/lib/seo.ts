@@ -16,9 +16,9 @@ export function pageMetadata(page: Page): Metadata {
       type: "website",
       images: [
         {
-          url: "/assets/photos/gg-cover-1440.webp",
-          width: 1440,
-          height: 804,
+          url: "/assets/photos/gg-instagram-1440.webp",
+          width: 1024,
+          height: 1024,
           alt: "Gonul Gonenc of Eyebrows by GG",
         },
       ],
@@ -27,7 +27,7 @@ export function pageMetadata(page: Page): Metadata {
       card: "summary_large_image",
       title,
       description: page.desc,
-      images: ["/assets/photos/gg-cover-1440.webp"],
+      images: ["/assets/photos/gg-instagram-1440.webp"],
     },
   };
 }

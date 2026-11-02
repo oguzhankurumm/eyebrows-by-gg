@@ -87,8 +87,40 @@
     "width": 2400,
     "height": 1340
   },
+  "gg-instagram": {
+    "width": 1024,
+    "height": 1024
+  },
   "gg-portrait": {
     "width": 1856,
     "height": 2304
+  },
+  "ig-DPOpz7wjgUO": {
+    "width": 1380,
+    "height": 2448
+  },
+  "ig-DPwH4WIjkCD": {
+    "width": 640,
+    "height": 1136
+  },
+  "ig-DQ1zq2Ajuy-": {
+    "width": 640,
+    "height": 1136
+  },
+  "ig-DVZssGKkWWw": {
+    "width": 640,
+    "height": 640
+  },
+  "ig-Dct30IUvXoc": {
+    "width": 1179,
+    "height": 2096
+  },
+  "ig-DdCQ7h5O7UU": {
+    "width": 1179,
+    "height": 2096
+  },
+  "ig-DdWwOkBheBV": {
+    "width": 1179,
+    "height": 2096
   }
 }

@@ -13,7 +13,7 @@ export function Footer() {
             <br />A personal point of view.
           </p>
           <a href={BOOK} className="text-link">
-            Book appointment
+            Book my appointment
           </a>
         </div>
         <div className="footer-grid">
@@ -21,9 +21,9 @@ export function Footer() {
             <h2>Visit the studio</h2>
             <address>{ADDR}</address>
             <p>
-              Monday–Saturday, 10am–8pm
+              Monday–Friday, 10am–6:30pm
               <br />
-              Sunday closed
+              Saturday, 10am–4pm<br />Sunday closed
             </p>
           </div>
           <div>

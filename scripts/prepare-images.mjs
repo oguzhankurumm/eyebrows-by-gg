@@ -7,7 +7,8 @@ await fs.mkdir(output, { recursive: true });
 const files = (await fs.readdir(source)).filter(
   (file) =>
     /portfolio-\d+\.webp$/.test(file) ||
-    ["gg-portrait.webp", "gg-cover.webp"].includes(file),
+    ["gg-portrait.webp", "gg-cover.webp", "gg-instagram.webp"].includes(file) ||
+    (file.startsWith("ig-") && file.endsWith(".webp")),
 );
 const manifest = {};
 for (const file of files) {

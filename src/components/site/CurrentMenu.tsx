@@ -1,0 +1,6 @@
+import menu from "@/data/booking-menu.json";
+import { BOOK } from "@/lib/site";
+import { Icon } from "./Icon";
+export function CurrentMenu() {
+ return <section className="section container current-menu"><div className="section-heading"><div><h2>The full studio menu.</h2><p>Current treatments, prices and appointment lengths from GlossGenius.</p></div><a className="secondary-button" href={BOOK} target="_blank" rel="noopener noreferrer">Find my appointment<Icon name="arrow" size={18}/></a></div><div className="current-menu-list">{menu.services.map(service=><div className="current-menu-row" key={service.id}><div><h3>{service.name}</h3><span>{service.minutes} minutes{service.deposit>0?` · $${service.deposit} deposit listed`:''}</span></div><strong>{service.hidden?'Price in booking':`$${service.price.toLocaleString('en-US')}${service.variable?'+':''}${service.price===0?' listed':''}`}</strong><a href={BOOK} data-booking-service={service.name} target="_blank" rel="noopener noreferrer" aria-label={`Review booking for ${service.name}`}><Icon name="diagonal" size={18}/></a></div>)}</div><p className="small muted menu-source">Menu checked November 2, 2026. Final availability, deposit and treatment details are confirmed in GlossGenius.</p></section>;
+}

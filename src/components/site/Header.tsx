@@ -10,7 +10,7 @@ export function Header() {
         </Link>
         <Navigation />
         <a className="button header-book" href={BOOK}>
-          Book appointment
+          Book a visit
         </a>
       </div>
     </header>

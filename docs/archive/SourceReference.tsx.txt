@@ -1,0 +1,39 @@
+import sourcePages from "@/data/source-pages.json";
+import { Icon } from "./Icon";
+const references = Object.fromEntries(
+  sourcePages.map((page) => [page.path, page]),
+);
+export function SourceReference({ path }: { path: string }) {
+  const source = references[path];
+  if (!source) return null;
+  return (
+    <section className="container source-reference">
+      <details>
+        <summary>
+          <span>
+            Original website reference
+            <span className="source-reference-subtitle">
+              Full treatment notes, guides and earlier website information
+            </span>
+          </span>
+          <Icon name="plus" />
+        </summary>
+        <div className="source-reference-body">
+          <p className="source-notice">
+            Reference from the original website. Earlier prices, offers and
+            timelines may differ from current booking details. Confirm your
+            treatment with GG.
+          </p>
+          <a className="source-link" href={source.url}>
+            View original source
+          </a>
+          <div
+            className="source-copy"
+            data-source-path={path}
+            dangerouslySetInnerHTML={{ __html: source.html }}
+          />
+        </div>
+      </details>
+    </section>
+  );
+}

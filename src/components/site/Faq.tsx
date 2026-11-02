@@ -5,7 +5,7 @@ export const QUESTIONS = [
   },
   {
     q: "Where can I see prices and times?",
-    a: "The service menu lists the prices supplied for this site. GlossGenius shows booking options and availability. Confirm the total and appointment length there before reserving.",
+    a: "The service menu lists treatment prices. GlossGenius shows booking options and availability. Confirm the total and appointment length there before reserving.",
   },
   {
     q: "Can I book if I have previous brow work?",
@@ -17,7 +17,7 @@ export const QUESTIONS = [
   },
   {
     q: "What if I need to change my booking?",
-    a: "The studio policy requests at least 24 hours’ notice. Use your booking confirmation or call the studio. Review the booking policy for deposits, late arrivals and missed appointments.",
+    a: "Give at least 48 hours’ notice to change or cancel. The current GlossGenius policy lists a 30% fee for cancellations within 48 hours and no-shows. Use your confirmation or call GG to discuss your appointment.",
   },
 ];
 export function Faq({

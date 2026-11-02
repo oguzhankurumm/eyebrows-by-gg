@@ -1,4 +1,8 @@
 import Link from "next/link";
+import { CurrentMenu } from "@/components/site/CurrentMenu";
+import { Icon } from "@/components/site/Icon";
+import { Credentials } from "@/components/site/Credentials";
+import { StudioFilms } from "@/components/site/StudioFilms";
 import type { Page } from "@/lib/content";
 import { DATA, POSTS } from "@/lib/content";
 import { BOOK, MAPS, PHONE, PHONE_T } from "@/lib/site";
@@ -78,18 +82,26 @@ function ServicePage({ page }: { page: Page }) {
             </div>
           </dl>
           <a className="button" href={BOOK}>
-            Book appointment
+            Book my appointment
           </a>
           <p className="small muted">
             Confirm the current price and booking details in GlossGenius.
           </p>
         </div>
         <figure>
-          <Photo
-            name={service.image as keyof typeof photos}
-            alt={`${service.name}: client photograph from the studio portfolio`}
-            priority
-          />
+          {service.slug === "henna-tinting" ? (
+            <div className="service-feature-graphic">
+              <Icon name="treatments" size={40} />
+              <span>Henna brow tint.</span>
+              <p>Color for your natural shape.</p>
+            </div>
+          ) : (
+            <Photo
+              name={service.image as keyof typeof photos}
+              alt={`${service.name}: client photograph from the studio portfolio`}
+              priority
+            />
+          )}
           <figcaption>
             Studio portfolio. Discuss your own starting point with GG.
           </figcaption>
@@ -102,48 +114,7 @@ function ServicePage({ page }: { page: Page }) {
   );
 }
 function Policy() {
-  return (
-    <article className="container article">
-      <section>
-        <h2>Give 24 hours’ notice</h2>
-        <p>
-          The studio policy asks for at least 24 hours to cancel or
-          move an appointment. Use the link in your GlossGenius confirmation,
-          call the studio or send a WhatsApp message.
-        </p>
-      </section>
-      <section>
-        <h2>Check your deposit terms</h2>
-        <p>
-          With less than 24 hours’ notice, part of a deposit may be forfeited. A
-          missed appointment may mean the full deposit is forfeited and
-          prepayment is required next time. Your booking confirmation lists the
-          terms for your treatment.
-        </p>
-      </section>
-      <section>
-        <h2>If you are running late</h2>
-        <p>
-          Call before arriving. The supplied policy says arrivals more than 15
-          minutes late may need to be rescheduled.
-        </p>
-      </section>
-      <section>
-        <h2>If plans change</h2>
-        <p>
-          If you feel unwell, cannot follow the preparation instructions or need
-          to discuss suitability, contact GG before the appointment. The
-          supplied policy allows rescheduling without penalty when a preparation
-          concern is raised before the procedure begins. Severe weather may also
-          require a change; the studio will contact you to arrange another time.
-        </p>
-      </section>
-      <p>
-        Confirm the current policy with your booking.{" "}
-        <a href={PHONE_T}>Call {PHONE}</a>.
-      </p>
-    </article>
-  );
+ return <article className="container article"><section><h2>Give 48 hours’ notice</h2><p>Cancel or move your appointment at least 48 hours ahead. Use your GlossGenius confirmation or call the studio.</p></section><section><h2>A clear cancellation policy</h2><p>The current GlossGenius policy lists a 30% cancellation fee for no-shows and cancellations within 48 hours of the scheduled appointment.</p></section><section><h2>Review your appointment details</h2><p>Deposits differ by treatment. Check the current menu and your booking confirmation for the amount and terms. If you are running late or have a preparation question, contact GG before your appointment.</p></section><p>Policy checked November 2, 2026. <a href={BOOK}>Review booking details</a> or <a href={PHONE_T}>call {PHONE}</a>.</p></article>;
 }
 function Guide({ page }: { page: Page }) {
   return (
@@ -166,7 +137,7 @@ function Guide({ page }: { page: Page }) {
       </section>
       <aside className="reading-links">
         <h2>Keep exploring</h2>
-        <Link href="/services/">Compare treatments and supplied prices</Link>
+        <Link href="/services/">Compare treatments and prices</Link>
         <Link href="/portfolio/">Look through client photographs</Link>
         <Link href="/contact/">Ask GG before you book</Link>
       </aside>
@@ -186,6 +157,8 @@ export function InnerPage({ page }: { page: Page }) {
       {page.type === "about" && (
         <>
           <Artist full />
+          <Credentials />
+          <StudioFilms />
           <Process />
           <Trust />
         </>
@@ -212,10 +185,11 @@ export function InnerPage({ page }: { page: Page }) {
       )}
       {(page.type === "portfolio" || page.type === "photo-gallery") && (
         <>
+          <StudioFilms />
           <Gallery />
           <section className="container gallery-note">
             <p>
-              Original client photographs supplied with this project. Individual
+              Original client photographs from the studio portfolio. Individual
               results differ; discuss your goals with GG.
             </p>
           </section>
@@ -226,11 +200,10 @@ export function InnerPage({ page }: { page: Page }) {
           <section className="container section service-index">
             <ServiceList />
             <p className="small muted">
-              Some supplied prices conflict and some durations are missing.
-              Confirm these details before booking.
+              Confirm treatment prices and appointment lengths before reserving.
             </p>
           </section>
-          <Process />
+          <CurrentMenu/><Process />
           <Questions />
         </>
       )}

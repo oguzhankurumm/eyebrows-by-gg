@@ -1,17 +1,23 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import "lenis/dist/lenis.css";
+import { BookingDialog } from "@/components/site/BookingDialog";
 import { Header } from "@/components/site/Header";
+import { MobileTabs } from "@/components/site/MobileTabs";
+import { Experience } from "@/components/site/Experience";
 import { Footer } from "@/components/site/Footer";
 import { JsonLd } from "@/components/site/JsonLd";
 import { studioSchema } from "@/lib/schema";
 import { ORIGIN } from "@/lib/site";
 
 const display = localFont({
-  src: "../assets/fonts/Prata-400.ttf",
+  src: [
+    { path: "../assets/fonts/Sora-600.ttf", weight: "600" },
+    { path: "../assets/fonts/Sora-700.ttf", weight: "700" },
+  ],
   variable: "--font-display",
   display: "swap",
-  weight: "400",
 });
 const body = localFont({
   src: [
@@ -28,7 +34,10 @@ export const metadata: Metadata = {
   description:
     "Brow shaping and permanent makeup with Gonul Gonenc in Milford, Connecticut. Explore services, view client results and book online.",
 };
-export const viewport: Viewport = { themeColor: "#F4F3F6" };
+export const viewport: Viewport = {
+  themeColor: "#F7F5FB",
+  viewportFit: "cover",
+};
 export default function RootLayout({
   children,
 }: {
@@ -44,6 +53,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <MobileTabs />
+        <Experience />
+        <BookingDialog />
       </body>
     </html>
   );

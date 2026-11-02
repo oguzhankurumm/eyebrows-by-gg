@@ -1,0 +1,259 @@
+{
+  "source": "https://eyebrowsbygg.glossgenius.com/services",
+  "checkedAt": "2026-11-02",
+  "cancellationPolicy": "I charge a 30% cancellation fee for any no-shows or cancellations within 48 hours of the scheduled appointment",
+  "services": [
+    {
+      "id": "1",
+      "name": "Consultation in Person",
+      "price": 75,
+      "minutes": 30,
+      "deposit": 50,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "2",
+      "name": "Virtual Consultation",
+      "price": 0,
+      "minutes": 20,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "3",
+      "name": "Eyebrow Threading&Shaping",
+      "price": 20,
+      "minutes": 25,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "4",
+      "name": "Eyebrow Threading & Henna Tinting",
+      "price": 45,
+      "minutes": 45,
+      "deposit": 20,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "5",
+      "name": "Upper Lip Threading",
+      "price": 5,
+      "minutes": 10,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "6",
+      "name": "Full Face Threading",
+      "price": 60,
+      "minutes": 60,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "7",
+      "name": "Nano Brows",
+      "price": 550,
+      "minutes": 210,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "8",
+      "name": "4-8 Weeks Nano Brows Touch Up",
+      "price": 300,
+      "minutes": 150,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "9",
+      "name": "Combo Brows",
+      "price": 500,
+      "minutes": 165,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "10",
+      "name": "4-8 Weeks Combo Brows Touch up",
+      "price": 300,
+      "minutes": 105,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "11",
+      "name": "Powder Brows",
+      "price": 450,
+      "minutes": 150,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "12",
+      "name": "4-8 Weeks Powder Brows Touch Up",
+      "price": 250,
+      "minutes": 90,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "13",
+      "name": "Lash Enhancement",
+      "price": 350,
+      "minutes": 90,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "14",
+      "name": "Lash Enhancement Touch Up",
+      "price": 150,
+      "minutes": 45,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "15",
+      "name": "Lip Blush",
+      "price": 550,
+      "minutes": 150,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "16",
+      "name": "Lip Blush Touch Up",
+      "price": 300,
+      "minutes": 90,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "17",
+      "name": "Natural Tattoo Removal + Vitamin",
+      "price": 150,
+      "minutes": 45,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "18",
+      "name": "Natural Eyebrow Growth",
+      "price": 700,
+      "minutes": 60,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "19",
+      "name": "Eyebrow Growth Serum (3 Products)",
+      "price": 175,
+      "minutes": 30,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "20",
+      "name": "Hair Treatment",
+      "price": 1250,
+      "minutes": 120,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "21",
+      "name": "Bridal Make-up",
+      "price": 225,
+      "minutes": 120,
+      "deposit": 50,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "22",
+      "name": "Bridal Make-up Trial",
+      "price": 0,
+      "minutes": 90,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "23",
+      "name": "Make-up",
+      "price": 150,
+      "minutes": 120,
+      "deposit": 25,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "24",
+      "name": "Kids Make-up",
+      "price": 75,
+      "minutes": 30,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "25",
+      "name": "Scar&Strech Mark Revision",
+      "price": 0,
+      "minutes": 30,
+      "deposit": 0,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "26",
+      "name": "Yearly Refresh Powder Brows",
+      "price": 450,
+      "minutes": 90,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "27",
+      "name": "Yearly Refresh Combo Brows",
+      "price": 500,
+      "minutes": 120,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    },
+    {
+      "id": "28",
+      "name": "Yearly Refresh Nano Brows",
+      "price": 550,
+      "minutes": 180,
+      "deposit": 75,
+      "variable": false,
+      "hidden": false
+    }
+  ]
+}

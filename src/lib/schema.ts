@@ -9,7 +9,7 @@ export const studioSchema = {
   email: EMAIL,
   description:
     "Brow shaping and permanent makeup studio in Milford, Connecticut.",
-  image: `${ORIGIN}/assets/photos/gg-cover-1440.webp`,
+  image: `${ORIGIN}/assets/photos/gg-instagram-1440.webp`,
   address: {
     "@type": "PostalAddress",
     streetAddress: "972 Boston Post Rd",
@@ -19,6 +19,7 @@ export const studioSchema = {
     addressCountry: "US",
   },
   openingHoursSpecification: [
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Saturday"], opens: "10:00", closes: "16:00" },
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
@@ -27,12 +28,14 @@ export const studioSchema = {
         "Wednesday",
         "Thursday",
         "Friday",
-        "Saturday",
+
       ],
       opens: "10:00",
-      closes: "20:00",
+      closes: "18:30",
     },
   ],
+  geo: { "@type": "GeoCoordinates", latitude: 41.2319966, longitude: -73.0477036 },
+  hasMap: "https://www.google.com/maps?cid=16539137567848620296",
   sameAs: [IG, FB],
   potentialAction: { "@type": "ReserveAction", target: BOOK },
 };
