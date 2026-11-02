@@ -11,13 +11,13 @@ Mode: Persuade. Mobile visitors compare brow finishes and reserve a studio appoi
 
 ## Direction contract
 
-THESIS: The personal brow appointment becomes a visual, interactive treatment experience, with GG's portrait and a working finish preview immediately visible.
+THESIS: The personal brow appointment becomes a visual, interactive treatment experience, with GG's portrait and booking action immediately visible; the finish preview follows the photo on mobile.
 
 OWN-WORLD: lilac-white and lavender surfaces, violet actions, Sora display and Manrope body. Rounded 16px controls, 28px image cards and 40px section panels. Real photography supplies detail.
 
 STORY: identify the artist, preview a finish, compare treatments and original results, understand the visit, then reserve a time through GlossGenius.
 
-FIRST VIEWPORT: bold two-line “Let’s touch your beauty” left; direct booking and result actions beneath. Tall rounded artist portrait right with identity card and floating treatment preview. Mobile reorders into a compact stack with a persistent four-destination navigation with a separate booking action.
+FIRST VIEWPORT: bold two-line “Let’s touch your beauty” left; direct booking and result actions beneath. Tall rounded artist portrait right with identity card and floating treatment preview. Mobile shows the headline, booking action and portrait first, followed by finish choices and their preview. A persistent four-destination navigation includes a separate booking action.
 
 FORM: code-led rounded beauty-studio bento, directly selected by user feedback. Earlier seed provenance is unverified historical context; the explicit later user-selected rounded direction is authoritative. Signature interactions: finish selector, treatment filters and keyboard-operable before/after range. No approved comp.
 

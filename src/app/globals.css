@@ -3146,3 +3146,90 @@ body:has(.booking-dialog[open]) {overflow:hidden;}
  .studio-map iframe{height:280px;}.studio-map>div{flex-direction:column;padding:20px;}
  .booking-dialog{width:100%;max-width:none;max-height:calc(100dvh - 20px);margin:auto 0 0;border-radius:28px 28px 0 0;}.booking-dialog-content{padding:32px 24px max(28px,env(safe-area-inset-bottom));}.booking-dialog h2{font-size:32px;}.booking-symbol{width:56px;height:56px;margin-bottom:20px;}.booking-preview{flex-wrap:wrap;gap:4px 14px;}
 }
+
+/* On phones, introduce GG and the booking action before the treatment explorer. */
+@media (max-width: 640px) {
+  .hero {
+    gap: 0;
+    padding-top: 12px;
+    padding-bottom: 28px;
+  }
+  .hero-copy,
+  .hero-visual {
+    display: contents;
+  }
+  .hero-copy h1 {
+    order: 1;
+    max-width: none;
+    margin: 0 0 12px;
+    font-size: clamp(42px, 11.2vw, 58px);
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+  }
+  .hero-copy > .lead {
+    order: 2;
+    max-width: 34ch;
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .hero-actions {
+    order: 3;
+    margin-bottom: 22px;
+    gap: 8px 16px;
+  }
+  .hero-actions .button {
+    min-height: 52px;
+    padding-inline: 18px;
+  }
+  .hero-photo {
+    order: 4;
+    height: clamp(290px, 82vw, 390px);
+    border-radius: 28px;
+  }
+  .hero-photo > img {
+    object-position: center 23%;
+  }
+  .artist-tag {
+    top: auto;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+    padding: 10px 12px;
+  }
+  .finish-picker {
+    order: 5;
+    margin-top: 18px;
+  }
+  .finish-options button {
+    font-size: 12px;
+  }
+  .finish-preview {
+    position: relative;
+    order: 6;
+    inset: auto;
+    width: 100%;
+    margin: 14px 0 0;
+    padding: 10px;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--surface);
+    box-shadow: none;
+  }
+  .finish-image {
+    width: 68px;
+    height: 76px;
+  }
+  .finish-preview strong {
+    margin-block: 2px;
+    font-size: 16px;
+  }
+  .finish-preview a {
+    margin-top: 5px;
+  }
+  .hero-photo-label {
+    position: static;
+    order: 7;
+    margin: 12px 4px 0;
+  }
+}
